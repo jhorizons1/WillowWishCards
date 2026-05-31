@@ -99,8 +99,9 @@ body {
 	.card * {
 		position: relative;
 		z-index: 1;
-		}
- transition: 0.3s ease;
+	 transition: 0.3s ease;
+	}
+
 .card:hover {
   transform: translate(-6px) scale(1.02);
   box-shadow: 0 25px 40px rgba(0, 0, 0, 0.3),
@@ -121,8 +122,9 @@ body {
   margin: 0 auto;
 }
 
-.verticle-card-img {
-	max-width: 400px;
+.card-image.verticle-card-img {
+	max-width: 450px;
+	max-height: 550px
 	}
 	
 @media (orientation: landscape) {
@@ -200,7 +202,7 @@ body {
    }
    
    h1 {
-   	text-shadow: 0 0 10px rgba(255, 220, 150, 0.7,
+   	text-shadow: 0 0 10px rgba(255, 220, 150, 0.7),
              0 0 20px rgba(255, 180, 100, 0.5);
    }
    
@@ -229,14 +231,24 @@ body {
        
   .share-card.horizontal-card {
   	width: 98%;
-      max-width: 900px;
+      max-width: 800px;
       }
       
-  .horizontal-card .card-image {
+  .horizontal-card.card-image {
   	width: 100%;
       max-width: none;
       height: auto;
   }
+  
+  .share-card h4, .share-card h3 {
+  	color: whitesmoke;
+  }
+  
+  .card-image.hedgehog-card-img {
+  	width: 600px;
+      height: 600px;
+      }
+  
   
   
     
