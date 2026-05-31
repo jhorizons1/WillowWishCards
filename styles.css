@@ -124,7 +124,7 @@ body {
 
 .card-image.verticle-card-img {
 	max-width: 450px;
-	max-height: 550px
+	max-height: 550px;
 	}
 	
 @media (orientation: landscape) {
@@ -137,14 +137,6 @@ body {
 
 /* ---------- TEXT ---------- */
 
-.card h2 {
-  color: #0b3d91;
-
-  font-size: 2rem;
-
-  margin-top: 20px;
-  margin-bottom: 20px;
-  }
   
   .share-btn {
   	background: linear-gradient(180deg, rgba(70, 35, 110, 0.95),
@@ -240,9 +232,23 @@ body {
       height: auto;
   }
   
-  .share-card h4, .share-card h3 {
+  .share-card h4, .share-card h3,
+  .share-card h2, .share-card h1 {
   	color: whitesmoke;
+      text-shadow: 0 0 10px rgba(255, 220, 150, 0.7),
+             0 0 20px rgba(255, 180, 100, 0.5);
   }
+  
+  .card-image.hedgehog-card-img {
+  	  width: 80%;
+        height: auto;
+  }
+  
+  .bear-share-card {
+  	color: whitesmoke !important;
+      text-shadow: 0 0 10px rgba(255, 220, 150, 0.7),
+             0 0 20px rgba(255, 180, 100, 0.5);
+             }
   
 
   
