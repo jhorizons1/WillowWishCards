@@ -24,16 +24,16 @@
   <div class="card share-card horizontal-card">
 
     <img
-      src="Sunshine.png"
-      alt="You're my sunshine"
+      src="Birthday.png"
+      alt="Happy Birthday"
       class="card-image"
     />
     <br>
 
-    <h3>&#9728;You're My Sunshine&#9728;</h3>
+    <h3>&#127880;Happy Birthday!&#127880;</h3>
 
     <p class="message">
-      No matter the weather, you make life shine.
+      Wishing you a day full of joy and a year full of reasons to celebrate.
     </p>
 
     <button class="share-btn" onclick="shareCard()">
@@ -48,7 +48,7 @@
       if (navigator.share) {
 
         navigator.share({
-          title: "You're My Sunshine",
+          title: "Happy Birthday!",
           text: "Check out this greeting card!",
           url: window.location.href
         })
