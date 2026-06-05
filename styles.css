@@ -11,7 +11,7 @@ body {
   font-family: Georgia, serif;
 
   min-height: 100vh;
-   background-image: url("Background.png");
+   background-image: url("InkAndPencilBackground.png");
    background-size: cover;
    background-position: center;
    background-repeat: no-repeat;
@@ -58,7 +58,7 @@ body {
 .card {
 	position: relative;
 	
-	background-image: url("CardBackground.png");
+	background-image: url("InkAndPencilCardBackground.png");
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
@@ -141,7 +141,7 @@ body {
   
   .share-btn {
   	background: linear-gradient(180deg, rgba(70, 35, 110, 0.95),
-                  rgba(30, 15, 55, 0.95)
+                  rgba(80, 45, 125, 0.95)
                   );
       color: white;
       font-weight: bold;
@@ -212,14 +212,14 @@ body {
    }
    
    nav a {
-   	color: #ffdca8;
+   	color: #7a5ac8;
        text-decoration: none;
        margin: 0 10px;
        font-size: 1.1rem;
        }
        
        nav a:hover {
-       	color: white;
+       	color: purple;
        }
        
   .share-card.horizontal-card {
@@ -250,6 +250,10 @@ body {
       text-shadow: 0 0 10px rgba(255, 220, 150, 0.7),
              0 0 20px rgba(255, 180, 100, 0.5);
              }
+             
+nav a:visited {
+	color: #d8c07a;
+	}
   
 
   
