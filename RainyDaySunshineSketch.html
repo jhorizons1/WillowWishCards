@@ -4,7 +4,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 
-  <title>Free Glad We Crossed Paths Greeting Card & eCard - WillowWish Cards</title>
+  <title>Free Sunshine Greeting Card & eCard - WillowWishCards</title>
 
   <link rel="stylesheet" href="styles.css" />
   <!-- Google tag (gtag.js) -->
@@ -21,23 +21,20 @@
 
 <body>
 
-  <div class="card share-card horizontal-card">
+  <div class="card share-card">
 
     <img
-      src="Hedgehog.png"
-      alt="Glad we crossed paths"
-      class="card-image hedgehog-card-img"
+      src="RainyDaySunshineSketch.png"
+      alt="Sunshine on a cloudy day card"
+      class="card-image verticle-card-img"
     />
-    <br>
+ 
+    
 
-    <h4>&#129428;I'm Glad We Crossed Paths&#129428;</h4>
-
-    <p class="message">
-      Keep rolling forward. Good things are waiting around the corner.
-    </p>
+   
 
     <button class="share-btn" onclick="shareCard()">
-      Share This Card &#10024;
+      Share This Card &#10024;
     </button>
 
   </div>
@@ -48,7 +45,7 @@
       if (navigator.share) {
 
         navigator.share({
-          title: "I'm glad our we crossed paths",
+          title: "Sunshine on a Cloudy Day",
           text: "Check out this greeting card!",
           url: window.location.href
         })
