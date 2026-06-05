@@ -5,7 +5,7 @@
 }
 
 body {
-  background: linear-gradient(to bottom, #87ceeb, #0b3d91);
+  background: #0b3d91;
   color: white;
 
   font-family: Georgia, serif;
@@ -15,7 +15,6 @@ body {
    background-size: cover;
    background-position: center;
    background-repeat: no-repeat;
-   background-attachment: fixed;
   align-items: center;
   margin: 0;   
   padding-top: 20px;
@@ -252,7 +251,7 @@ body {
              }
              
 nav a:visited {
-	color: #d8c07a;
+	color: #4b2e83;
 	}
   
 
