@@ -10,17 +10,17 @@ html {
 	}
 
 body {
-  background: #0b3d91;
+  
   color: white;
-  background: #0b3d91 url("InkAndPencilBackground.png") center center / cover no-repeat fixed;
+  background-image: url("InkAndPencilBackground.png");
   font-family: Georgia, serif;
-
+  background-color: #0b3d91;
   min-height: 100vh;
-  background: transparent;
+  background-size: cover;
 
-   background-position: center;
+   background-position: center center;
    background-repeat: no-repeat;
-   background-attachment: fixed;
+   background-attachment: scroll;
   align-items: center;
   margin: 0;   
   padding-top: 20px;
