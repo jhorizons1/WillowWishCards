@@ -6,7 +6,7 @@
 
 html {
 	min-height: 100%;
-    margin: 0;
+    background-color: #0b3d91;
 	}
 
 body {
@@ -16,9 +16,9 @@ body {
   font-family: Georgia, serif;
   background-color: #0b3d91;
   min-height: 100vh;
-  background-size: cover;
+  background-size: 100% 100%;
 
-   background-position: center center;
+   background-position: center top;
    background-repeat: no-repeat;
    background-attachment: scroll;
   align-items: center;
