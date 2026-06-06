@@ -4,6 +4,12 @@
   box-sizing: border-box;
 }
 
+html {
+	min-height: 100%;
+	background: #0b3d91 url("InkAndPencilBackground.png")
+	center / cover no-repeat fixed;
+	}
+
 body {
   background: #0b3d91;
   color: white;
@@ -11,8 +17,8 @@ body {
   font-family: Georgia, serif;
 
   min-height: 100vh;
-   background-image: url("InkAndPencilBackground.png");
-   background-size: 100% auto;
+  background: transparent;
+
    background-position: center;
    background-repeat: no-repeat;
    background-attachment: fixed;
