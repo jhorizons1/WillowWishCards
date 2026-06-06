@@ -6,14 +6,13 @@
 
 html {
 	min-height: 100%;
-	background: #0b3d91 url("InkAndPencilBackground.png")
-	center top / auto 100vh no-repeat fixed;
+    margin: 0;
 	}
 
 body {
   background: #0b3d91;
   color: white;
-
+  background: #0b3d91 url("InkAndPencilBackground.png") center center / cover no-repeat fixed;
   font-family: Georgia, serif;
 
   min-height: 100vh;
