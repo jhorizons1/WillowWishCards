@@ -268,6 +268,30 @@ nav a:visited {
 	color: #4b2e83;
 	}
   
+  .daily-smile {
+  	text-align: center;
+      margin: 30px auto;
+      max-width: 600px;
+  }
+  
+  .daily-smile h2 {
+  	margin-bottom: 15px;
+  }
+  
+  .smile-card {
+      background: rgba(255,255,255,0.55);
+      color: #333;
+      padding: 20px;
+      border-radius: 12px;
+      font-size: 1.2rem;
+      font-style: italic;
+      box-shadow: 0 2px 6px rgbz(0,0,0,0.2);
+   }
+   
+   h2 {
+   	text-shadow: 0 0 10px rgba(255, 220, 150, 0.7),
+             0 0 20px rgba(255, 180, 100, 0.5);
+   }
 
   
   
