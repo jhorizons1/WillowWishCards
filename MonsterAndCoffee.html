@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+  <title>Free Monster And Coffee GIF - WillowWishCards</title>
+
+  <link rel="stylesheet" href="styles.css" />
+  <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-XDQZ6QW7JZ"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-XDQZ6QW7JZ');
+</script>
+
+<!-- Open Graph -->
+<meta property="og:title" content="Cozy Monster Coffee Break | WillowWish Cards">
+<meta property="og:description" content="A cozy animated scene featuring a friendly monster enjoying a warm cup of coffee by candlelight. Rain taps against the window while golden lights twinkle softly, creating a peaceful moment of comfort and relaxation.">
+<meta property="og:image" content="https://willowwishcards.com/MonsterAndCoffee.gif">
+<meta property="og:url" content="https://willowwishcards.com/MonsterAndCoffee.html">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="WillowWish Cards">
+
+<!-- Twitter -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Cozy Monster Coffee Break - A Refreshing Blend of Day and Night | WillowWish Cards">
+<meta name="twitter:description" content="Grab a warm drink and settle in. This cozy animated GIF features a friendly monster, a glowing candle, gentle rain, and a quiet coffee break filled with warmth and calm.">
+<meta name="twitter:image" content="https://willowwishcards.com/MonsterAndCoffee.gif">
+
+ 
+</head>
+
+<body>
+
+  <div class="card share-card">
+
+    <img
+      src="MonsterAndCoffee.gif"
+      alt="Animated GIF of a friendly furry monster relaxing by a rainy window while sipping from a heart-decorated coffee mug. A candle glows on the table as warm golden lights twinkle softly in the background."
+      class="card-image verticle-card-img"
+    />
+ 
+    
+
+   
+
+    <button class="share-btn" onclick="shareCard()">
+      Share This GIF &#10024;
+    </button>
+
+  </div>
+
+  <script>
+    function shareCard() {
+
+      if (navigator.share) {
+
+        navigator.share({
+          title: "MonsterAndCoffee",
+          text: "Check out this GIF!",
+          url: window.location.href
+        })
+
+        .then(() => console.log("Shared successfully"))
+        .catch((error) => console.log("Error sharing:", error));
+
+      } else {
+
+        alert("Sharing is not supported on this browser.");
+
+      }
+    }
+  </script>
+
+</body>
+</html>
