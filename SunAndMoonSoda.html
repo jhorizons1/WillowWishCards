@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+  <title>Free Funny Frog Greeting Card & eCard - WillowWishCards</title>
+
+  <link rel="stylesheet" href="styles.css" />
+  <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-XDQZ6QW7JZ"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-XDQZ6QW7JZ');
+</script>
+
+<!-- Open Graph -->
+<meta property="og:title" content="Where Day Meets Night | WillowWish Cards">
+<meta property="og:description" content="A colorful soda can inspired by the beauty of day and night. Golden sunshine meets a star-filled moonlit sky in a whimsical design celebrating balance, wonder, and the magic of every moment.">
+<meta property="og:image" content="https://willowwishcards.com/SunAndMoonSoda.png">
+<meta property="og:url" content="https://willowwishcards.com/SunAndMoonSoda.html">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="WillowWish Cards">
+
+<!-- Twitter -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Sun & Moon Soda - A Refreshing Blend of Day and Night | WillowWish Cards">
+<meta name="twitter:description" content="A refreshing soda inspired by the beauty of day and night. Golden sunshine meets a star-filled moonlit sky in a colorful design celebrating balance, wonder, and the magic found in every hour of the day.">
+<meta name="twitter:image" content="https://willowwishcards.com/DiamondCoffee.png">
+
+ 
+</head>
+
+<body>
+
+  <div class="card share-card">
+
+    <img
+      src="SunAndMoonSoda.png"
+      alt="Illustrated soda can split between day and night, featuring a bright golden sun on one side and a crescent moon with stars on the other. The colorful can stands against
+               a scenic backdrop showing sunshine and blue skies on one side and a moonlit night sky on the other, with water droplets covering the can."
+      class="card-image verticle-card-img"
+    />
+ 
+    
+
+   
+
+    <button class="share-btn" onclick="shareCard()">
+      Share This Card &#10024;
+    </button>
+
+  </div>
+
+  <script>
+    function shareCard() {
+
+      if (navigator.share) {
+
+        navigator.share({
+          title: "Coffee",
+          text: "Check out this greeting card!",
+          url: window.location.href
+        })
+
+        .then(() => console.log("Shared successfully"))
+        .catch((error) => console.log("Error sharing:", error));
+
+      } else {
+
+        alert("Sharing is not supported on this browser.");
+
+      }
+    }
+  </script>
+
+</body>
+</html>

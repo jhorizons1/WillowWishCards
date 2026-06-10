@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+  <title>Free Funny Frog Greeting Card & eCard - WillowWishCards</title>
+
+  <link rel="stylesheet" href="styles.css" />
+  <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-XDQZ6QW7JZ"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-XDQZ6QW7JZ');
+</script>
+
+<!-- Open Graph -->
+<meta property="og:title" content="Heart-Shaped Coffee and Falling Black Diamonds | WillowWish Cards">
+<meta property="og:description" content="A heart-shaped coffee cup filled with rich coffee sits beneath glowing gold">
+<meta property="og:image" content="https://willowwishcards.com/DiamondCoffee.png">
+<meta property="og:url" content="https://willowwishcards.com/Coffee12.html">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="WillowWish Cards">
+
+<!-- Twitter -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Diamond Coffee - A Cup Filled with Sparkle and Wonder | WillowWish Cards">
+<meta name="twitter:description" content="A heart shaped coffee cup, golden LOVE lettering, and falling black diamonds create a dreamy scene of coffee and warmth.">
+<meta name="twitter:image" content="https://willowwishcards.com/DiamondCoffee.png">
+
+ 
+</head>
+
+<body>
+
+  <div class="card share-card">
+
+    <img
+      src="DiamondCoffee.png"
+      alt="Heart shaped coffee cup filled with coffee beneath glowing gold cursive LOVE lettering as black diamonds fall through a dark elegant background."
+      class="card-image verticle-card-img"
+    />
+ 
+    
+
+   
+
+    <button class="share-btn" onclick="shareCard()">
+      Share This Card &#10024;
+    </button>
+
+  </div>
+
+  <script>
+    function shareCard() {
+
+      if (navigator.share) {
+
+        navigator.share({
+          title: "Coffee",
+          text: "Check out this greeting card!",
+          url: window.location.href
+        })
+
+        .then(() => console.log("Shared successfully"))
+        .catch((error) => console.log("Error sharing:", error));
+
+      } else {
+
+        alert("Sharing is not supported on this browser.");
+
+      }
+    }
+  </script>
+
+</body>
+</html>
