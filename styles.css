@@ -265,7 +265,7 @@ body::before {
              }
              
 nav a:visited {
-	color: crimson;
+	color: rgb(0, 255, 0);
 	}
   
   .daily-smile {
