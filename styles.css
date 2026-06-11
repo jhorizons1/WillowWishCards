@@ -28,7 +28,7 @@ body::before {
 	content: "";
 	position: fixed;
 	inset: 0;
-	background-image: url("InkAndPencilBackground.png");
+	background-image: url("Background123.png");
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
@@ -225,7 +225,7 @@ body::before {
    }
    
    nav a {
-   	color: #7a5ac8;
+   	color: gold;
        text-decoration: none;
        margin: 0 10px;
        font-size: 1.1rem;
