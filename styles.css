@@ -314,6 +314,13 @@ a.happy-possum-link:visited {
 	max-width: 600px;
     margin: 30px auto;
     }
+    
+ 
+ 	ul {
+ 	list-style-type: none;
+     padding-left: 0;
+      }
+  
   
     
   
