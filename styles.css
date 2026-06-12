@@ -207,9 +207,10 @@ body::before {
        0 0 18px rgba(255, 200, 140, 0.22);
    }
    
-   h1 {
+  .title {
    	text-shadow: 0 0 10px rgba(255, 220, 150, 0.7),
              0 0 20px rgba(255, 180, 100, 0.5);
+             color: cyan;
    }
    
    h3 {
@@ -276,6 +277,7 @@ nav a:visited {
   
   .daily-smile h2 {
   	margin-bottom: 15px;
+       color: cyan;
   }
   
   .smile-card {
@@ -320,6 +322,36 @@ a.happy-possum-link:visited {
  	list-style-type: none;
      padding-left: 0;
       }
+      
+      .featured-gallery {
+      	text-align: center;
+          margin: 40px auto;
+          max-width: 900px;
+          padding: 20px;
+          }
+      
+    .featured-gallery h2 {
+      	color: cyan;
+      }
+    .gallery-grid {
+    	display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 15px;
+        margin-top: 20px;
+        }
+
+   .gallery-grid img {
+         width: 100%;
+          border-radius: 15px;
+          box-shadow: 0 0 12px rgba(255, 215, 0, 0.4);
+    }
+     @media (max-width: 700px) {
+           .gallery-grid {
+               grid-template-columns: 1 fr;
+       }
+  }      
+      
+          
   
   
     
