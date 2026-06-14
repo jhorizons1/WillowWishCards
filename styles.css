@@ -300,7 +300,7 @@ a.squirrel-link {
 }  
 
 a.squirrel-link:visited {
-	color: crimson;
+	color: rgb(0, 255, 0);
 	}
 
 a.happy-possum-link {
@@ -308,7 +308,7 @@ a.happy-possum-link {
 }  
 
 a.happy-possum-link:visited {
-	color: crimson;
+	color: rgb(0, 255, 0);
 	}
 	
 .daily-smile-card {
@@ -350,7 +350,15 @@ a.happy-possum-link:visited {
                grid-template-columns: 1 fr;
        }
   }      
-      
+
+a.funny-raccoon-link {
+	color: gold;
+	}
+
+a.funny-raccoon-link:visited {
+	color: rgb(0, 255, 0);
+	}
+  
           
   
   
