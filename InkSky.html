@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+  <title>Free Sky of Ink Picture | WillowWishCards</title>
+
+  <link rel="stylesheet" href="styles.css" />
+  <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-XDQZ6QW7JZ"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-XDQZ6QW7JZ');
+</script>
+
+<!-- Open Graph -->
+<meta property="og:title" content="Sky of Ink | WillowWish Cards">
+<meta property="og:description" content="A quiet park rests beneath a vast sky made entirely of swirling ink blue and black ink. This surreal image blends imagination and wonder into a dreamlike scene.">
+<meta property="og:image" content="https://willowwishcards.com/InkSky.png">
+<meta property="og:url" content="https://willowwishcards.com/InkSky.html">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="WillowWish Cards">
+
+<!-- Twitter -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Sky of Ink | WillowWish Cards">
+<meta name="twitter:description" content="A winding park path, towering trees, and a sky of flowing blue and black ink. Explore a striking surreal landscape where the heavens become a canvas of liquid imagination.">
+<meta name="twitter:image" content="https://willowwishcards.com/InkSky.png">
+
+ 
+</head>
+
+<body>
+
+  <div class="card share-card">
+
+    <img
+      src="InkSky.png"
+      alt="A dramatic view from a park shows towering trees and a winding path beneath a sky filled with swirling blue and black ink. The ink flows and curls across the entire sky in abstract patterns, creating a surreal canopy above the quiet park landscape and distant city buildings."
+      class="card-image horizontal-card-img"
+    />
+ 
+    
+
+   
+
+    <button class="share-btn" onclick="shareCard()">
+      Share This Picture &#10024;
+    </button>
+
+  </div>
+
+  <script>
+    function shareCard() {
+
+      if (navigator.share) {
+
+        navigator.share({
+          title: "Ink Sky",
+          text: "Check out this picture!",
+          url: window.location.href
+        })
+
+        .then(() => console.log("Shared successfully"))
+        .catch((error) => console.log("Error sharing:", error));
+
+      } else {
+
+        alert("Sharing is not supported on this browser.");
+
+      }
+    }
+  </script>
+
+</body>
+</html>
