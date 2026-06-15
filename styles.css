@@ -72,9 +72,9 @@ body::before {
 	position: relative;
 	
 	background-image: url("InkAndPencilCardBackground.png");
-	background-size: cover;
+	background-size: contain;
 	background-position: center;
-	background-repeat: no-repeat;
+	background-repeat: repeat;
 	
 	color: white;
 	
@@ -358,6 +358,8 @@ a.funny-raccoon-link {
 a.funny-raccoon-link:visited {
 	color: rgb(0, 255, 0);
 	}
+
+
   
           
   
