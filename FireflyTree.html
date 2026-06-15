@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+  <title>Free Firefly Tree GIF - WillowWishCards</title>
+
+  <link rel="stylesheet" href="styles.css" />
+  <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-XDQZ6QW7JZ"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-XDQZ6QW7JZ');
+</script>
+
+<!-- Open Graph -->
+<meta property="og:title" content="Firefly Tree at Twilight | WillowWish Cards">
+<meta property="og:description" content="A majestic tree stands beneath a starry evening sky as glowing fireflies drift through the meadow. A peaceful animated scene filled with wonder, light, and quiet magic.">
+<meta property="og:image" content="https://willowwishcards.com/FireflyTree.gif">
+<meta property="og:url" content="https://willowwishcards.com/FireflyTree.html">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="WillowWish Cards">
+
+<!-- Twitter -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Firefly Tree at Twilight | WillowWish Cards">
+<meta name="twitter:description" content="Watch golden fireflies dance around a lone tree beneath stars. A calming animated scene inspired by the beauty of summer nights and glowing lights.">
+<meta name="twitter:image" content="https://willowwishcards.com/FireflyTree.gif">
+
+ 
+</head>
+
+<body>
+
+  <div class="card share-card">
+
+    <img
+      src="FireflyTree.gif"
+      alt="An animated GIF of a majestic tree standing alone in a twilight meadow as glowing golden fireflies drift, flicker, and float around its branches and across the grass. The deer blue evening sky is dotted with stars, while distant forests fade into the background, creating a calm and magical nighttime atmosphere."
+      class="card-image horizontal-card-img"
+    />
+ 
+    
+
+   
+
+    <button class="share-btn" onclick="shareCard()">
+      Share This GIF &#10024;
+    </button>
+
+  </div>
+
+  <script>
+    function shareCard() {
+
+      if (navigator.share) {
+
+        navigator.share({
+          title: "Firefly Tree",
+          text: "Check out this GIF!",
+          url: window.location.href
+        })
+
+        .then(() => console.log("Shared successfully"))
+        .catch((error) => console.log("Error sharing:", error));
+
+      } else {
+
+        alert("Sharing is not supported on this browser.");
+
+      }
+    }
+  </script>
+
+</body>
+</html>

@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+  <title>Free Giraffe And Squirrel Picture | WillowWishCards</title>
+
+  <link rel="stylesheet" href="styles.css" />
+  <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-XDQZ6QW7JZ"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-XDQZ6QW7JZ');
+</script>
+
+<!-- Open Graph -->
+<meta property="og:title" content="Squirrel on a Giraffe Adventure | WillowWish Cards">
+<meta property="og:description" content="A curious squirrel balances on a giraffe's head to reach a nut high in a tree. A cheerful and imaginative wildlife scene filled with fun and wonder.">
+<meta property="og:image" content="https://willowwishcards.com/SquirrelAndGiraffe.png">
+<meta property="og:url" content="https://willowwishcards.com/GiraffeAndSquirrel.html">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="WillowWish Cards">
+
+<!-- Twitter -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Squirrel on a Giraffe Adventure | WillowWish Cards">
+<meta name="twitter:description" content="A playful squirrel uses a giraffes height to reach a tasty nut hanging from a tree branch. A whimsical image celebrating teamwork, curiosity, and a little creativity.">
+<meta name="twitter:image" content="https://willowwishcards.com/SquirrelAndGiraffe.png">
+
+ 
+</head>
+
+<body>
+
+  <div class="card share-card">
+
+    <img
+      src="SquirrelAndGiraffe.png"
+      alt="A playful squirrel stands on top of a giraffes head, stretching upward to reach a nut hanging from a tree branch. The scene takes place under a bright blue sky with green leaves overhead, creating a whimsical and lighthearted wildlife image."
+      class="card-image verticle-card-img"
+    />
+ 
+    
+
+   
+
+    <button class="share-btn" onclick="shareCard()">
+      Share This Picture &#10024;
+    </button>
+
+  </div>
+
+  <script>
+    function shareCard() {
+
+      if (navigator.share) {
+
+        navigator.share({
+          title: "Squirrel And Giraffe",
+          text: "Check out this picture!",
+          url: window.location.href
+        })
+
+        .then(() => console.log("Shared successfully"))
+        .catch((error) => console.log("Error sharing:", error));
+
+      } else {
+
+        alert("Sharing is not supported on this browser.");
+
+      }
+    }
+  </script>
+
+</body>
+</html>
