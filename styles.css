@@ -230,6 +230,10 @@ body::before {
        text-decoration: none;
        margin: 0 10px;
        font-size: 1.1rem;
+       display: inline-block;
+       padding: 10px 14px;
+       margin: 4px;
+       line-height: 1.4;
        }
        
        nav a:hover {
