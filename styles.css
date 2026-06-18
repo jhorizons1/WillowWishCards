@@ -11,7 +11,11 @@ html, body {
 
 body {
   
-  color: rgb(0, 170, 200);
+  color: rgb(255, 255, 255);
+  text-shadow: -1px -1px 0 #6B7A3A,
+             1px -1px 0 #6B7A3A,
+             -1px 1px 0 #6B7A3A,
+             1px 1px 0 #6B7A3A;
   
   font-family: Georgia, serif;
   background-color: #0b3d91;
@@ -28,7 +32,7 @@ body::before {
 	content: "";
 	position: fixed;
 	inset: 0;
-	background-image: url("WandBackground.png") !important;
+	background-image: url("WillowTreeBackground.png") !important;
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
@@ -44,7 +48,7 @@ body::before {
 
 .site-header h1 {
   font-size: 3rem;
-  color: #0b3d91;
+  color: white;
 
   margin-bottom: 10px;
 }
@@ -71,7 +75,7 @@ body::before {
 .card {
 	position: relative;
 	
-	background-image: url("InkAndPencilCardBackground.png");
+	background-image: url("WillowTreeCardBackground.png");
 	background-size: contain;
 	background-position: center;
 	background-repeat: repeat;
@@ -196,7 +200,7 @@ body::before {
       background: rgba(70, 35, 110, 0.95);
       color: white;
        box-shadow:
-            0 0 20px rgba (255, 210, 140, 0.35);
+            0 0 20px rgba(255, 210, 140, 0.35);
  }
  
    .share-btn:active {
@@ -208,9 +212,10 @@ body::before {
    }
    
   .title {
-   	text-shadow: 0 0 10px rgba(255, 220, 150, 0.7),
-             0 0 20px rgba(255, 180, 100, 0.5);
-             color: cyan;
+       text-shadow: -1px -1px 0 #6B7A3A,
+             1px -1px 0 #6B7A3A,
+             -1px 1px 0 #6B7A3A,
+             1px 1px 0 #6B7A3A;
    }
    
    h3 {
@@ -225,8 +230,61 @@ body::before {
    	max-width: 700px;
    }
    
+   a.squirrel-link {
+	color: gold;
+	text-shadow: -1px -1px 0 #6B7A3A,
+             1px -1px 0 #6B7A3A,
+             -1px 1px 0 #6B7A3A,
+             1px 1px 0 #6B7A3A;
+}  
+
+a.squirrel-link:visited {
+	color: rgb(0, 255, 0);
+	text-shadow: -1px -1px 0 #FFF,
+             1px -1px 0 #FFF,
+             -1px 1px 0 #FFF,
+             1px 1px 0 #FFF;
+	}
+
+a.happy-possum-link {
+	color: gold;
+	text-shadow: -1px -1px 0 #6B7A3A,
+             1px -1px 0 #6B7A3A,
+             -1px 1px 0 #6B7A3A,
+             1px 1px 0 #6B7A3A;
+}  
+
+a.happy-possum-link:visited {
+	color: rgb(0, 255, 0);
+	text-shadow: -1px -1px 0 #FFF,
+             1px -1px 0 #FFF,
+             -1px 1px 0 #FFF,
+             1px 1px 0 #FFF;
+	}
+	
+   
+   a.funny-raccoon-link {
+	color: gold;
+	  text-shadow: -1px -1px 0 #6B7A3A,
+             1px -1px 0 #6B7A3A,
+             -1px 1px 0 #6B7A3A,
+             1px 1px 0 #6B7A3A;
+	}
+
+a.funny-raccoon-link:visited {
+	color: rgb(0, 255, 0);
+	text-shadow: -1px -1px 0 #FFF,
+             1px -1px 0 #FFF,
+             -1px 1px 0 #FFF,
+             1px 1px 0 #FFF;
+	}
+   
    nav a {
    	color: gold;
+       text-shadow: -1px -1px 0 #6B7A3A,
+             1px -1px 0 #6B7A3A,
+             -1px 1px 0 #6B7A3A,
+             1px 1px 0 #6B7A3A;
        text-decoration: none;
        margin: 0 10px;
        font-size: 1.1rem;
@@ -236,8 +294,16 @@ body::before {
        line-height: 1.4;
        }
        
+       nav a:visited {
+	color: #6B7A3A;
+	text-shadow: -1px -1px 0 #FFF,
+             1px -1px 0 #FFF,
+             -1px 1px 0 #FFF,
+             1px 1px 0 #FFF;
+             }
+       
        nav a:hover {
-       	color: purple;
+       	color: #F4D35E;
        }
        
   .share-card.horizontal-card {
@@ -245,7 +311,7 @@ body::before {
       max-width: 800px;
       }
       
-  .horizontal-card.card-image {
+  .horizontal-card .card-image {
   	width: 100%;
       max-width: none;
       height: auto;
@@ -268,10 +334,7 @@ body::before {
       text-shadow: 0 0 10px rgba(255, 220, 150, 0.7),
              0 0 20px rgba(255, 180, 100, 0.5);
              }
-             
-nav a:visited {
-	color: rgb(0, 255, 0);
-	}
+            
   
   .daily-smile {
   	text-align: center;
@@ -281,18 +344,22 @@ nav a:visited {
   
   .daily-smile h2 {
   	margin-bottom: 15px;
-       color: cyan;
+       text-shadow: -1px -1px 0 #6B7A3A,
+             1px -1px 0 #6B7A3A,
+             -1px 1px 0 #6B7A3A,
+             1px 1px 0 #6B7A3A;
   }
   
   .smile-card {
       background: rgba(255,255,255,0.55);
-      color: #333;
       padding: 20px;
       border-radius: 12px;
       font-size: 1.2rem;
       font-style: italic;
       box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+     
    }
+   
    
    h2 {
    	text-shadow: 0 0 10px rgba(255, 220, 150, 0.7),
@@ -335,7 +402,10 @@ a.happy-possum-link:visited {
           }
       
     .featured-gallery h2 {
-      	color: cyan;
+      	text-shadow: -1px -1px 0 #6B7A3A,
+             1px -1px 0 #6B7A3A,
+             -1px 1px 0 #6B7A3A,
+             1px 1px 0 #6B7A3A;
       }
     .gallery-grid {
     	display: grid;
@@ -355,13 +425,7 @@ a.happy-possum-link:visited {
        }
   }      
 
-a.funny-raccoon-link {
-	color: gold;
-	}
 
-a.funny-raccoon-link:visited {
-	color: rgb(0, 255, 0);
-	}
 
 
   
