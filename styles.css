@@ -107,9 +107,7 @@ body::before {
 	inset: 0;
 	
 	background:
-	    linear-gradient(rgba(15, 8, 30, 0.55),
-	    rgba(25, 12, 45, 0.65)
-	 );
+	   rgba(255, 255, 255, 0.20);
 	
 	z-index: 0;
 	}
@@ -230,40 +228,10 @@ body::before {
    	max-width: 700px;
    }
    
-   a.squirrel-link {
-	color: gold;
-	text-shadow: -1px -1px 0 #6B7A3A,
-             1px -1px 0 #6B7A3A,
-             -1px 1px 0 #6B7A3A,
-             1px 1px 0 #6B7A3A;
-}  
-
-a.squirrel-link:visited {
-	color: rgb(0, 255, 0);
-	text-shadow: -1px -1px 0 #FFF,
-             1px -1px 0 #FFF,
-             -1px 1px 0 #FFF,
-             1px 1px 0 #FFF;
-	}
-
-a.happy-possum-link {
-	color: gold;
-	text-shadow: -1px -1px 0 #6B7A3A,
-             1px -1px 0 #6B7A3A,
-             -1px 1px 0 #6B7A3A,
-             1px 1px 0 #6B7A3A;
-}  
-
-a.happy-possum-link:visited {
-	color: rgb(0, 255, 0);
-	text-shadow: -1px -1px 0 #FFF,
-             1px -1px 0 #FFF,
-             -1px 1px 0 #FFF,
-             1px 1px 0 #FFF;
-	}
+  
 	
    
-   a.funny-raccoon-link {
+   a.funny-raccoon-link, a.happy-possum-link, a.squirrel-link {
 	color: gold;
 	  text-shadow: -1px -1px 0 #6B7A3A,
              1px -1px 0 #6B7A3A,
@@ -271,7 +239,8 @@ a.happy-possum-link:visited {
              1px 1px 0 #6B7A3A;
 	}
 
-a.funny-raccoon-link:visited {
+a.funny-raccoon-link:visited, a.happy-possum-link:visited,
+a.squirrel-link:visited {
 	color: rgb(0, 255, 0);
 	text-shadow: -1px -1px 0 #FFF,
              1px -1px 0 #FFF,
@@ -281,10 +250,10 @@ a.funny-raccoon-link:visited {
    
    nav a {
    	color: gold;
-       text-shadow: -1px -1px 0 #6B7A3A,
-             1px -1px 0 #6B7A3A,
-             -1px 1px 0 #6B7A3A,
-             1px 1px 0 #6B7A3A;
+       text-shadow: -1px -0.5px 0 #6B7A3A,
+             1px -0.5px 0 #6B7A3A,
+             -1px 0.5px 0 #6B7A3A,
+             1px 0.5px 0 #6B7A3A;
        text-decoration: none;
        margin: 0 10px;
        font-size: 1.1rem;
@@ -295,7 +264,7 @@ a.funny-raccoon-link:visited {
        }
        
        nav a:visited {
-	color: #6B7A3A;
+	color: #7CFC00;
 	text-shadow: -1px -1px 0 #FFF,
              1px -1px 0 #FFF,
              -1px 1px 0 #FFF,
@@ -366,21 +335,6 @@ a.funny-raccoon-link:visited {
              0 0 20px rgba(255, 180, 100, 0.5);
    }
 
-a.squirrel-link {
-	color: gold;
-}  
-
-a.squirrel-link:visited {
-	color: rgb(0, 255, 0);
-	}
-
-a.happy-possum-link {
-	color: gold;
-}  
-
-a.happy-possum-link:visited {
-	color: rgb(0, 255, 0);
-	}
 	
 .daily-smile-card {
 	width: 90%;
