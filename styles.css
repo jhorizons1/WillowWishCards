@@ -81,7 +81,10 @@ body::before {
 	background-repeat: repeat;
 	
 	color: white;
-	
+	text-shadow: -1px -0.5px 0 #6B7A3A,
+             1px -0.5px 0 #6B7A3A,
+             -1px 0.5px 0 #6B7A3A,
+             1px 0.5px 0 #6B7A3A;
   width: 45%;
   max-width: 600px;
   min-width: 300px;
@@ -222,6 +225,10 @@ body::before {
    
    p {
    	text-shadow: 3px 3px 8px rgba(0,0,0,0.35);
+       text-shadow: -1px -1px 0 #6B7A3A,
+             1px -1px 0 #6B7A3A,
+             -1px 1px 0 #6B7A3A,
+             1px 1px 0 #6B7A3A;
    }
    
    .share-card {
@@ -307,8 +314,13 @@ a.squirrel-link:visited {
   
   .daily-smile {
   	text-align: center;
+      text-shadow: -1px -0.5px 0 #6B7A3A,
+             1px -0.5px 0 #6B7A3A,
+             -1px 0.5px 0 #6B7A3A,
+             1px 0.5px 0 #6B7A3A;
       margin: 30px auto;
       max-width: 600px;
+      
   }
   
   .daily-smile h2 {
