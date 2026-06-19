@@ -390,6 +390,17 @@ a.squirrel-link:visited {
                grid-template-columns: 1fr;
        }
   }      
+  
+  	.vertical-card-img {
+		max-width: 338px;
+		max-height: 450px;
+		}
+		
+		.card-image.vertical-card-img {
+	max-width: 450px;
+	max-height: 550px;
+	}
+  
 
 
 
