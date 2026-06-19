@@ -113,6 +113,10 @@ body::before {
 	   rgba(255, 255, 255, 0.20);
 	
 	z-index: 0;
+	text-shadow: -1px -1px 0 #6B7A3A,
+             1px -1px 0 #6B7A3A,
+             -1px 1px 0 #6B7A3A,
+             1px 1px 0 #6B7A3A;
 	}
 	
 	.card * {
@@ -211,6 +215,10 @@ body::before {
    
    h3 {
    	text-shadow: 3px 3px 8px rgba(0,0,0,0.45);
+   text-shadow: -1px -1px 0 #6B7A3A,
+             1px -1px 0 #6B7A3A,
+             -1px 1px 0 #6B7A3A,
+             1px 1px 0 #6B7A3A;
    }
    
    p {
@@ -287,7 +295,11 @@ a.squirrel-link:visited {
   .share-card h2, .share-card h1 {
   	color: whitesmoke;
       text-shadow: 0 0 10px rgba(255, 220, 150, 0.7),
-             0 0 20px rgba(255, 180, 100, 0.5);
+             0 0 20px rgba(255, 180, 100, 0.5),
+             -1px -1px 0 #6B7A3A,
+             1px -1px 0 #6B7A3A,
+             -1px 1px 0 #6B7A3A,
+             1px 1px 0 #6B7A3A;
   }
   
   .card-image.hedgehog-card-img {
@@ -335,6 +347,10 @@ a.squirrel-link:visited {
    h2 {
    	text-shadow: 0 0 10px rgba(255, 220, 150, 0.7),
              0 0 20px rgba(255, 180, 100, 0.5);
+             text-shadow: -1px -1px 0 #6B7A3A,
+             1px -1px 0 #6B7A3A,
+             -1px 1px 0 #6B7A3A,
+             1px 1px 0 #6B7A3A;
    }
 
 	
