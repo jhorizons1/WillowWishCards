@@ -141,18 +141,8 @@ body::before {
   margin: 0 auto;
 }
 
-.card-image.verticle-card-img {
-	max-width: 450px;
-	max-height: 550px;
-	}
 	
-@media (orientation: landscape) {
-	
-	.verticle-card-img {
-		max-width: 338px;
-		max-height: 450px;
-		}
-}
+
 
 /* ---------- TEXT ---------- */
 
@@ -391,9 +381,11 @@ a.squirrel-link:visited {
        }
   }      
   
+  @media (orientation: landscape) {
   	.vertical-card-img {
 		max-width: 338px;
 		max-height: 450px;
+		}
 		}
 		
 		.card-image.vertical-card-img {
