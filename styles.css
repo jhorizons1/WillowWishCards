@@ -246,19 +246,19 @@ body::before {
 
 a.funny-raccoon-link:visited, a.happy-possum-link:visited,
 a.squirrel-link:visited {
-	color: rgb(0, 255, 0);
-	text-shadow: -1px -1px 0 #FFF,
-             1px -1px 0 #FFF,
-             -1px 1px 0 #FFF,
-             1px 1px 0 #FFF;
+	color: rgb(0, 114, 0);
+	text-shadow: -0.5px -0.5px 0 #FFF,
+             0.5px -0.5px 0 #FFF,
+             -0.5px 0.5px 0 #FFF,
+             0.5px 0.5px 0 #FFF;
 	}
    
    nav a {
-   	color: rgb(212, 0, 60);
-       text-shadow: -1px -0.5px 0 #6B7A3A,
-             1px -0.5px 0 #6B7A3A,
-             -1px 0.5px 0 #6B7A3A,
-             1px 0.5px 0 #6B7A3A;
+   	color: rgb(195, 195, 47);
+       text-shadow: -0.5px -0.5px 0 #6B7A3A,
+             0.5px -0.5px 0 #6B7A3A,
+             -0.5px 0.5px 0 #6B7A3A,
+             0.5px 0.5px 0 #6B7A3A;
        text-decoration: none;
        margin: 0 10px;
        font-size: 1.1rem;
@@ -269,7 +269,7 @@ a.squirrel-link:visited {
        }
        
        nav a:visited {
-	color: #7CFC00;
+	color: #de3400;
 	text-shadow: -1px -1px 0 #FFF,
              1px -1px 0 #FFF,
              -1px 1px 0 #FFF,
