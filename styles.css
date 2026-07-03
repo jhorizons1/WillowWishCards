@@ -237,7 +237,7 @@ body::before {
 	
    
    a.funny-raccoon-link, a.happy-possum-link, a.squirrel-link {
-	color: gold;
+	color: rgb(230, 197, 14);
 	  text-shadow: -1px -1px 0 #6B7A3A,
              1px -1px 0 #6B7A3A,
              -1px 1px 0 #6B7A3A,
