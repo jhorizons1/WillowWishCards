@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+  <title>Free Frog King GIF Card - WillowWishCards</title>
+  <link rel="icon" type="image/png" href="favicon.png">
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "WillowWish Cards",
+  "url": "https://willowwishcards.com",
+  "logo": "https://willowwishcards.com/favicon.png"
+}
+</script>
+
+
+  <link rel="stylesheet" href="styles.css" />
+  <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-XDQZ6QW7JZ"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-XDQZ6QW7JZ');
+</script>
+
+<!-- Open Graph -->
+<meta property="og:title" content="Frog King Lantern GIF Card | WillowWish Cards">
+<meta property="og:description" content="A crowned frog king watches over a glowing lantern as fireflies dance through a moonlit pond. A whimsical animated card celebrating the royalty within every king and queen.">
+<meta property="og:image" content="https://willowwishcards.com/FrogKingGIFCard.gif">
+<meta property="og:url" content="https://willowwishcards.com/FrogKingGIFCard.html">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="WillowWish Cards">
+
+<!-- Twitter -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Frog King Lantern GIF Card | WillowWish Cards">
+<meta name="twitter:description" content="A magical frog king, a glowing lantern, and drifting fireflies come together in this charming animated GIF card with a message of confidence and encouragement.">
+<meta name="twitter:image" content="https://willowwishcards.com/FrogKingGIFCard.gif">
+
+ 
+</head>
+
+<body>
+
+  <div class="card share-card">
+
+    <img
+      src="FrogKingGIFCard.gif"
+      alt="Animated GIF card featuring a crowned frog king sitting on a lily pad beside a glowing lantern in a moonlit pond. Fireflies drift through the evening air as the lantern's warm light reflects across the water, creating a peaceful and magical scene. Text reads: 'Every King and Queen has their crown and you're one of them.' "
+      class="card-image horizontal-card-img"
+    />
+ 
+    
+
+   
+
+    <button class="share-btn" onclick="shareCard()">
+      Share This GIF Card &#10024;
+    </button>
+
+  </div>
+
+  <script>
+    function shareCard() {
+
+      if (navigator.share) {
+
+        navigator.share({
+          title: "Frog King",
+          text: "Check out this GIF Card!",
+          url: window.location.href
+        })
+
+        .then(() => console.log("Shared successfully"))
+        .catch((error) => console.log("Error sharing:", error));
+
+      } else {
+
+        alert("Sharing is not supported on this browser.");
+
+      }
+    }
+  </script>
+
+</body>
+</html>
