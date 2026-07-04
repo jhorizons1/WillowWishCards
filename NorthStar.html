@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+  <title>Free You're My North Star Greeting Card & eCard - WillowWish Cards</title>
+
+  <link rel="stylesheet" href="styles.css" />
+  <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-XDQZ6QW7JZ"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-XDQZ6QW7JZ');
+</script>
+
+<meta name="description" content="A heartwarming greeting card featuring a gentle giraffe gazing at a shining star with the message 'You're My North Star.'">
+
+<meta property="og:title" content="You're My North Star | WillowWish Cards">
+<meta property="og:description" content="A heartwarming greeting card featuring a gentle giraffe gazing at a shining star with the message 'You're My North Star.'">
+<meta property="og:image" content="https://willowwishcards.com/NorthStar.png">
+<meta property="og:url" content="https://willowwishcards.com/NorthStar.html">
+<meta property="og:type" content="website">
+
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="You're My North Star | WillowWish Cards">
+<meta name="twitter:description" content="A heartwarming greeting card featuring a gentle giraffe gazing at a shining star with the message 'You're My North Star.'">
+<meta name="twitter:image" content="https://willowwishcards.com/NorthStar.png">
+
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2682784236100565"
+     crossorigin="anonymous"></script>
+
+ 
+</head>
+
+<body>
+
+  <div class="card share-card">
+
+    <img
+      src="NorthStar.png"
+      alt="A heartwarming greeting card featuring a cheerful giraffe sitting beneath a star-filled night sky, gazing up a bright golden North Star. The card reads: 'You're my North Star.' Warm glowing colors, twinkling stars, and a peaceful nighttime landscape create a loving and reassuring atmosphere."
+      class="card-image vertical-card-img"
+    />
+    <br>
+    <h3>&#127775;You're my North Star&#127775;</h3>
+
+    <p class="message">
+     Through every journey, every dream, and every starry night, you're my North Star.
+    </p>
+
+    <button class="share-btn" onclick="shareCard()">
+      Share This Card &#10024;
+    </button>
+
+  </div>
+
+  <script>
+    function shareCard() {
+
+      if (navigator.share) {
+
+        navigator.share({
+          title: "North Star",
+          text: "Check out this greeting card!",
+          url: window.location.href
+        })
+
+        .then(() => console.log("Shared successfully"))
+        .catch((error) => console.log("Error sharing:", error));
+
+      } else {
+
+        alert("Sharing is not supported on this browser.");
+
+      }
+    }
+  </script>
+
+</body>
+</html>

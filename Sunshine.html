@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+  <title>Free You're My Sunshine Greeting Card & eCard - WillowWish Cards</title>
+
+  <link rel="stylesheet" href="styles.css" />
+  <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-XDQZ6QW7JZ"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-XDQZ6QW7JZ');
+</script>
+
+<meta name="description" content="A cheerful greeting card featuring a bright sunshine illustration and the quote 'You'reMy Sunshine,' perfect for sharing warmth, encouragement, and appreciation.">
+
+<meta property="og:title" content="You're My Sunshine">
+<meta property="og:description" content="A cheerful greeting card featuring a bright sunshine illustration and the quote 'You're My Sunshine.' ">
+<meta property="og:image" content="https://willowwishcards.com/Sunshine.png">
+<meta property="og:url" content="https://willowwishcards.com/Sunshine.html">
+<meta property="og:type" content="website">
+
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="You're My Sunshine">
+<meta name="twitter:description" content="A cheerful greeting card featuring a bright sunshine illustration and the quote 'You're My Sunshine.' ">
+<meta name="twitter:image" content="https://willowwishcards.com/Sunshine.png">
+
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2682784236100565"
+     crossorigin="anonymous"></script>
+
+ 
+</head>
+
+<body>
+
+  <div class="card share-card horizontal-card">
+
+    <img
+      src="Sunshine.png"
+      alt="A cheerful greeting card featuring a smiling hedgehog holding a yellow umbrella while standing in a rain-soaked countryside path. A happy sun peeks through the clouds as raindrops fall around blooming flowers and a rustic fence. The card reads: “You're My Sunshine.” Warm golden light, colorful flowers, and a hopeful rainy-day scene create a bright and uplifting atmosphere."
+      class="card-image"
+    />
+    <br>
+
+    <h3>&#9728;You're My Sunshine&#9728;</h3>
+
+    <p class="message">
+      No matter the weather, you make life shine.
+    </p>
+
+    <button class="share-btn" onclick="shareCard()">
+      Share This Card &#10024;
+    </button>
+
+  </div>
+
+  <script>
+    function shareCard() {
+
+      if (navigator.share) {
+
+        navigator.share({
+          title: "You're My Sunshine",
+          text: "Check out this greeting card!",
+          url: window.location.href
+        })
+
+        .then(() => console.log("Shared successfully"))
+        .catch((error) => console.log("Error sharing:", error));
+
+      } else {
+
+        alert("Sharing is not supported on this browser.");
+
+      }
+    }
+  </script>
+
+</body>
+</html>

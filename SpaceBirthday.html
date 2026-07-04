@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+  <title>Free Space Birthday Greeting Card & eCard - WillowWish Cards</title>
+
+  <link rel="stylesheet" href="styles.css" />
+  <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-XDQZ6QW7JZ"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-XDQZ6QW7JZ');
+</script>
+
+<meta name="description" content="A magical space-themed birthday card featuring a cosmic cupcake, colorful planets, a tiny astronaut, and heartfelt birthday wishes.">
+
+<meta property="og:title" content="Happy Birthday">
+<meta property="og:description" content="A magical space-themed birthday card featuring a cosmic cupcake, colorful planets, a tiny astronaut, and heartfelt birthday wishes.">
+<meta property="og:image" content="https://willowwishcards.com/SpaceBirthday.png">
+<meta property="og:url" content="https://willowwishcards.com/SpaceBirthday.html">
+<meta property="og:type" content="website">
+
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Happy Birthday">
+<meta name="twitter:description" content="A magical space-themed birthday card featuring a cosmic cupcake, colorful planets, a tiny astronaut, and heartfelt birthday wishes.">
+<meta name="twitter:image" content="https://willowwishcards.com/SpaceBirthday.png">
+
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2682784236100565"
+     crossorigin="anonymous"></script>
+
+ 
+</head>
+
+<body>
+
+  <div class="card share-card">
+
+    <img
+      src="SpaceBirthday.png"
+      alt="A colorful space-themed birthday card featuring a giant galaxy-inspired cupcake with glowing candles, surrounded by stars, planets, and swirling galaxies. A small astronaut holds a gift while floating through space. The card reads: “Happy Birthday!” and includes a birthday wish for joy, love, laughter, and a little magic. Vibrant purple, blue, and pink cosmic colors create a fun, whimsical celebration scene."
+      class="card-image vertical-card-img"
+    />
+    <br>
+    <h3>&#127874;!Happy Birthday!&#127874;</h3>
+
+    <p class="message">
+      May your year be filled with laughter, magic, friendship, and moments that shine as brightly as the stars!
+    </p>
+
+    <button class="share-btn" onclick="shareCard()">
+      Share This Card &#10024;
+    </button>
+
+  </div>
+
+  <script>
+    function shareCard() {
+
+      if (navigator.share) {
+
+        navigator.share({
+          title: "Happy Birthday!",
+          text: "Check out this greeting card!",
+          url: window.location.href
+        })
+
+        .then(() => console.log("Shared successfully"))
+        .catch((error) => console.log("Error sharing:", error));
+
+      } else {
+
+        alert("Sharing is not supported on this browser.");
+
+      }
+    }
+  </script>
+
+</body>
+</html>

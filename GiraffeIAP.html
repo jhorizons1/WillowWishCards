@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+  <title>Free Giraffe Painting Stars Greeting Card & eCard | WillowWish Cards</title>
+
+  <link rel="stylesheet" href="styles.css" />
+  <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-XDQZ6QW7JZ"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-XDQZ6QW7JZ');
+</script>
+
+<!-- Open Graph -->
+<meta property="og:title" content="The World Is Brighter Because You're In It | WillowWish Cards">
+<meta property="og:description" content="A heartwarming ink and pencil greeting card featuring a giraffe painting stars into the evening sky. A gentle reminder that the light you bring makes the world a brighter place.">
+<meta property="og:image" content="https://willowwishcards.com/GiraffeIAP.png">
+<meta property="og:url" content="https://willowwishcards.com/sketch/GiraffeIAP.html">
+<meta property="og:type" content="website">
+
+<!-- Twitter -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="The World Is Brighter Because You're In It | WillowWish Cards">
+<meta name="twitter:description" content="Share a little encouragement with a whimsical giraffe painting stars across the night sky and a message celebrating the difference one person can make.">
+<meta name="twitter:image" content="https://willowwishcards.com/images/GiraffeIAP.png">
+
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2682784236100565"
+     crossorigin="anonymous"></script>
+
+ 
+</head>
+
+<body>
+
+  <div class="card share-card">
+
+    <img
+      src="GiraffeIAP.png"
+      alt="A whimsical ink and pencil illustration of a giraffe standing on a ladder, using a paintbrush to add glowing stars to the evening sky. A crescent moon shines above a 
+        cozy village, while decorative swirling borders frame the artwork. The card includes the message: 'The world is brighter because you're in it.' "
+      class="card-image vertical-card-img"
+    />
+    
+
+    <button class="share-btn" onclick="shareCard()">
+      Share This Card &#10024;
+    </button>
+
+  </div>
+
+  <script>
+    function shareCard() {
+
+      if (navigator.share) {
+
+        navigator.share({
+          title: "The World is Brighter Because You're In It",
+          text: "Check out this greeting card!",
+          url: window.location.href
+        })
+
+        .then(() => console.log("Shared successfully"))
+        .catch((error) => console.log("Error sharing:", error));
+
+      } else {
+
+        alert("Sharing is not supported on this browser.");
+
+      }
+    }
+  </script>
+
+</body>
+</html>

@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+  <title>Free Magic Moments Greeting Card & eCard - WillowWish Cards</title>
+
+  <link rel="stylesheet" href="styles.css" />
+  <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-XDQZ6QW7JZ"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-XDQZ6QW7JZ');
+</script>
+
+<!-- Open Graph -->
+<meta property="og:title" content="Every Moment With You Feels Like Magic | WillowWish Cards">
+<meta property="og:description" content="A sweet and magical card celebrating love, friendship, and the special moments that make life sparkle. Free eCard from WillowWish Cards.">
+<meta property="og:image" content="https://willowwishcards.com/Magic.png">
+<meta property="og:url" content="https://willowwishcards.com/Magic.html">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="WillowWish Cards">
+
+<!-- Twitter -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Every Moment With You Feels Like Magic">
+<meta name="twitter:description" content="Send a magical message with this adorable bunny and hearts eCard from WillowWish Cards.">
+<meta name="twitter:image" content="https://willowwishcards.com/Magic.png">
+
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2682784236100565"
+     crossorigin="anonymous"></script>
+
+ 
+</head>
+
+<body>
+
+  <div class="card share-card horizontal-card">
+
+    <img
+      src="Magic.png"
+      alt="A whimsical love card featuring a smiling white bunny magician popping out of a top hat and holding a glowing heart-shaped wand. Surrounded by floating hearts, sparkles, and warm magical lights, the card reads: 'Every moment with you feels like magic.' The scene has a cheerful, romantic atmosphere with bright pink, gold, and purple tones."
+      class="card-image"
+      
+    />
+    <br>
+
+    <h4>&#129668;You make magical moments&#129668;</h4>
+
+    <p class="message">
+     Love is the real magic behind every happy moment
+    </p>
+
+    <button class="share-btn" onclick="shareCard()">
+      Share This Card &#10024;
+    </button>
+
+  </div>
+
+  <script>
+    function shareCard() {
+
+      if (navigator.share) {
+
+        navigator.share({
+          title: "Every Moment With You",
+          text: "Check out this greeting card!",
+          url: window.location.href
+        })
+
+        .then(() => console.log("Shared successfully"))
+        .catch((error) => console.log("Error sharing:", error));
+
+      } else {
+
+        alert("Sharing is not supported on this browser.");
+
+      }
+    }
+  </script>
+
+</body>
+</html>

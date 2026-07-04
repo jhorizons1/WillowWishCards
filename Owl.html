@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+  <title>Free Owl Always Be There Greeting Card & eCard - WillowWish Cards</title>
+
+  <link rel="stylesheet" href="styles.css" />
+  <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-XDQZ6QW7JZ"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-XDQZ6QW7JZ');
+</script>
+
+<!-- Open Graph -->
+<meta property="og:title" content="Owl Always Be There | WillowWish Cards">
+<meta property="og:description" content="A heartfelt owl friendship card reminding someone they'll always have a friend in you. Free eCard from WillowWish Cards.">
+<meta property="og:image" content="https://willowwishcards.com/Owl.png">
+<meta property="og:url" content="https://willowwishcards.com/Owl.html">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="WillowWish Cards">
+
+<!-- Twitter -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Owl Always Be There">
+<meta name="twitter:description" content="A sweet owl friendship eCard with a heartfelt message of loyalty, support, and companionship.">
+<meta name="twitter:image" content="https://willowwishcards.com/Owl.png">
+
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2682784236100565"
+     crossorigin="anonymous"></script>
+ 
+</head>
+
+<body>
+
+  <div class="card share-card">
+
+    <img
+      src="Owl.png"
+      alt="A heartwarming friendship card featuring two cuddly owls perched together on a tree branch beneath a crescent moon and a star-filled sky. The card reads: 'Owl Always Be There' and ' No matter where life takes us, you'll always have a friend in me.' Warm glowing lights, soft colors, and a cozy woodland scene create a comforting and supportive atmosphere."
+      class="card-image vertical-card-img"
+    />
+    <br>
+    <h1>&#129417;Always&#129417;</h1>
+
+    <p class="message">
+      Whenever you need a friend, just remember - owl always be there.
+    </p>
+
+    <button class="share-btn" onclick="shareCard()">
+      Share This Card &#10024;
+    </button>
+
+  </div>
+
+  <script>
+    function shareCard() {
+
+      if (navigator.share) {
+
+        navigator.share({
+          title: "Always",
+          text: "Check out this greeting card!",
+          url: window.location.href
+        })
+
+        .then(() => console.log("Shared successfully"))
+        .catch((error) => console.log("Error sharing:", error));
+
+      } else {
+
+        alert("Sharing is not supported on this browser.");
+
+      }
+    }
+  </script>
+
+</body>
+</html>

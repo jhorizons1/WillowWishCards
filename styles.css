@@ -1,0 +1,421 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+	min-height: 100%;
+    margin: 0;
+	}
+
+body {
+  
+  color: rgb(255, 255, 255);
+  text-shadow: -1px -1px 0 #6B7A3A,
+             1px -1px 0 #6B7A3A,
+             -1px 1px 0 #6B7A3A,
+             1px 1px 0 #6B7A3A;
+  
+  font-family: Georgia, serif;
+  background-color: #0b3d91;
+  min-height: 100vh;
+  background-size: 100% 100%;
+  position: relative;
+  align-items: center;
+  margin: 0;   
+  padding-top: 20px;
+  text-align: center;
+}
+
+body::before {
+	content: "";
+	position: fixed;
+	inset: 0;
+	background-image: url("WillowTreeBackground.png") !important;
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	z-index: -1;
+	}
+
+/* ---------- WEBSITE TITLE ---------- */
+
+.site-header {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.site-header h1 {
+  font-size: 3rem;
+  color: white;
+
+  margin-bottom: 10px;
+}
+
+.site-header p {
+  font-size: 1.2rem;
+  color: white;
+}
+
+/* ---------- CARD SECTION ---------- */
+
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+
+  justify-content: center;
+  gap: 30px;
+
+  width: 100%;
+}
+
+/* ---------- INDIVIDUAL CARD ---------- */
+
+.card {
+	position: relative;
+	
+	background-image: url("WillowTreeCardBackground.png");
+	background-size: contain;
+	background-position: center;
+	background-repeat: repeat;
+	
+	color: white;
+	text-shadow: -1px -0.5px 0 #6B7A3A,
+             1px -0.5px 0 #6B7A3A,
+             -1px 0.5px 0 #6B7A3A,
+             1px 0.5px 0 #6B7A3A;
+  width: 45%;
+  max-width: 600px;
+  min-width: 300px;
+
+  margin: 30px auto;
+  padding: 20px;
+
+  border: 1px solid rgba(255,220,180,0.25);
+  border-radius: 22px;
+
+  text-align: center;
+
+  box-shadow: 0  0 25px rgba(255, 180, 120, 0.18);
+                           
+
+  overflow: hidden;
+}
+
+.card::before {
+	content: "";
+	
+	position: absolute;
+	inset: 0;
+	
+	background:
+	   rgba(255, 255, 255, 0.20);
+	
+	z-index: 0;
+	text-shadow: -1px -1px 0 #6B7A3A,
+             1px -1px 0 #6B7A3A,
+             -1px 1px 0 #6B7A3A,
+             1px 1px 0 #6B7A3A;
+	}
+	
+	.card * {
+		position: relative;
+		z-index: 1;
+	 transition: 0.3s ease;
+	}
+
+.card:hover {
+  transform: translate(-6px) scale(1.02);
+  box-shadow: 0 25px 40px rgba(0, 0, 0, 0.3),
+                            0 10px 15px rgba(0, 0, 0, 0.2);
+}
+
+/* ---------- IMAGE ---------- */
+
+.card-image {
+  width: 100%;
+  height: auto;
+  max-height: 85vh;
+  max-width: none;
+  display: block;
+
+  border-radius: 15px;
+  
+  margin: 0 auto;
+}
+
+	
+
+
+/* ---------- TEXT ---------- */
+
+  
+  .share-btn {
+  	background: linear-gradient(180deg, rgba(245, 245, 245, 0.95),
+                  rgba(180, 180, 180, 0.95)
+                  );
+      color: black;
+      font-weight: bold;
+      border: none;
+      border-radius: 16px;
+      
+      padding: 14px 28px;
+      
+      position: relative;
+      
+      box-shadow:
+        0 14px 24px rgba(0,0,0,0.25),
+        0 0 18px rgba(255, 200, 140, 0.18);
+        
+        cursor: pointer;
+        
+      transition: transform 0.15s ease,
+        box-shadow 0.15s ease;
+  }
+  
+  .share-btn::before {
+  	content: "";
+     
+       position: absolute;
+
+       top: 3px;
+       left: 6px;
+       right: 6px;
+       height: 45%;  
+       
+       border-radius: 12px;
+       
+       background: rgba(255,255,255,0.25);
+       
+       pointer-events: none;
+}
+  .share-btn:hover {
+  	transform: scale(1.03);
+      background: rgba(70, 35, 110, 0.95);
+      color: white;
+       box-shadow:
+            0 0 20px rgba(255, 210, 140, 0.35);
+ }
+ 
+   .share-btn:active {
+   	transform: translateY(2px);
+   
+       box-shadow:
+       0 8px 18px rgba(0,0,0,0.25),
+       0 0 18px rgba(255, 200, 140, 0.22);
+   }
+   
+  .title {
+       text-shadow: -1px -1px 0 #6B7A3A,
+             1px -1px 0 #6B7A3A,
+             -1px 1px 0 #6B7A3A,
+             1px 1px 0 #6B7A3A;
+   }
+   
+   h3 {
+   	text-shadow: 3px 3px 8px rgba(0,0,0,0.45);
+   text-shadow: -1px -1px 0 #6B7A3A,
+             1px -1px 0 #6B7A3A,
+             -1px 1px 0 #6B7A3A,
+             1px 1px 0 #6B7A3A;
+   }
+   
+   p {
+   	text-shadow: 3px 3px 8px rgba(0,0,0,0.35);
+       text-shadow: -1px -1px 0 #6B7A3A,
+             1px -1px 0 #6B7A3A,
+             -1px 1px 0 #6B7A3A,
+             1px 1px 0 #6B7A3A;
+   }
+   
+   .share-card {
+   	max-width: 700px;
+   }
+   
+  
+	
+   
+   a.funny-raccoon-link, a.happy-possum-link, a.squirrel-link {
+	color: rgb(230, 197, 14);
+	  text-shadow: -1px -1px 0 #6B7A3A,
+             1px -1px 0 #6B7A3A,
+             -1px 1px 0 #6B7A3A,
+             1px 1px 0 #6B7A3A;
+	}
+
+a.funny-raccoon-link:visited, a.happy-possum-link:visited,
+a.squirrel-link:visited {
+	color: rgb(0, 114, 0);
+	text-shadow: -0.5px -0.5px 0 #FFF,
+             0.5px -0.5px 0 #FFF,
+             -0.5px 0.5px 0 #FFF,
+             0.5px 0.5px 0 #FFF;
+	}
+   
+   nav a {
+   	color: rgb(195, 195, 47);
+       text-shadow: -0.5px -0.5px 0 #6B7A3A,
+             0.5px -0.5px 0 #6B7A3A,
+             -0.5px 0.5px 0 #6B7A3A,
+             0.5px 0.5px 0 #6B7A3A;
+       text-decoration: none;
+       margin: 0 10px;
+       font-size: 1.1rem;
+       display: inline-block;
+       padding: 10px 14px;
+       margin: 4px;
+       line-height: 1.4;
+       }
+       
+       nav a:visited {
+	color: #de3400;
+	text-shadow: -1px -1px 0 #FFF,
+             1px -1px 0 #FFF,
+             -1px 1px 0 #FFF,
+             1px 1px 0 #FFF;
+             }
+       
+       nav a:hover {
+       	color: #F4D35E;
+       }
+       
+  .share-card.horizontal-card {
+  	width: 98%;
+      max-width: 800px;
+      }
+      
+  .horizontal-card .card-image {
+  	width: 100%;
+      max-width: none;
+      height: auto;
+  }
+  
+  .share-card h4, .share-card h3,
+  .share-card h2, .share-card h1 {
+  	color: whitesmoke;
+      text-shadow: 0 0 10px rgba(255, 220, 150, 0.7),
+             0 0 20px rgba(255, 180, 100, 0.5),
+             -1px -1px 0 #6B7A3A,
+             1px -1px 0 #6B7A3A,
+             -1px 1px 0 #6B7A3A,
+             1px 1px 0 #6B7A3A;
+  }
+  
+  .card-image.hedgehog-card-img {
+  	  width: 80%;
+        height: auto;
+  }
+  
+  .bear-share-card {
+  	color: whitesmoke !important;
+      text-shadow: 0 0 10px rgba(255, 220, 150, 0.7),
+             0 0 20px rgba(255, 180, 100, 0.5);
+             }
+            
+  
+  .daily-smile {
+  	text-align: center;
+      text-shadow: -1px -0.5px 0 #6B7A3A,
+             1px -0.5px 0 #6B7A3A,
+             -1px 0.5px 0 #6B7A3A,
+             1px 0.5px 0 #6B7A3A;
+      margin: 30px auto;
+      max-width: 600px;
+      
+  }
+  
+  .daily-smile h2 {
+  	margin-bottom: 15px;
+       text-shadow: -1px -1px 0 #6B7A3A,
+             1px -1px 0 #6B7A3A,
+             -1px 1px 0 #6B7A3A,
+             1px 1px 0 #6B7A3A;
+  }
+  
+  .smile-card {
+      background: rgba(255,255,255,0.55);
+      padding: 20px;
+      border-radius: 12px;
+      font-size: 1.2rem;
+      font-style: italic;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+     
+   }
+   
+   
+   h2 {
+   	text-shadow: 0 0 10px rgba(255, 220, 150, 0.7),
+             0 0 20px rgba(255, 180, 100, 0.5);
+             text-shadow: -1px -1px 0 #6B7A3A,
+             1px -1px 0 #6B7A3A,
+             -1px 1px 0 #6B7A3A,
+             1px 1px 0 #6B7A3A;
+   }
+
+	
+.daily-smile-card {
+	width: 90%;
+	max-width: 600px;
+    margin: 30px auto;
+    }
+    
+ 
+ 	ul {
+ 	list-style-type: none;
+     padding-left: 0;
+      }
+      
+      .featured-gallery {
+      	text-align: center;
+          margin: 40px auto;
+          max-width: 900px;
+          padding: 20px;
+          }
+      
+    .featured-gallery h2 {
+      	text-shadow: -1px -1px 0 #6B7A3A,
+             1px -1px 0 #6B7A3A,
+             -1px 1px 0 #6B7A3A,
+             1px 1px 0 #6B7A3A;
+      }
+    .gallery-grid {
+    	display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 15px;
+        margin-top: 20px;
+        }
+
+   .gallery-grid img {
+         width: 100%;
+          border-radius: 15px;
+          box-shadow: 0 0 12px rgba(255, 215, 0, 0.4);
+    }
+     @media (max-width: 700px) {
+           .gallery-grid {
+               grid-template-columns: 1fr;
+       }
+  }      
+  
+  @media (orientation: landscape) {
+  	.vertical-card-img {
+		max-width: 338px;
+		max-height: 450px;
+		}
+		}
+		
+		.card-image.vertical-card-img {
+	max-width: 450px;
+	max-height: 550px;
+	}
+  
+
+
+
+
+  
+          
+  
+  
+    
+  

@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+  <title>Free Bear Hug Greeting Card & eCard - WillowWish Cards</title>
+
+  <link rel="stylesheet" href="styles.css" />
+  <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-XDQZ6QW7JZ"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-XDQZ6QW7JZ');
+</script>
+
+<!-- Open Graph -->
+<meta property="og:title" content="Bear Hug | WillowWish Cards">
+<meta property="og:description" content="Sending you a warm bear hug and a little extra comfort today. Free eCard from WillowWish Cards.">
+<meta property="og:image" content="https://willowwishcards.com/BearHug.png">
+<meta property="og:url" content="https://willowwishcards.com/BearHug.html">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="WillowWish Cards">
+
+<!-- Twitter -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Bear Hug">
+<meta name="twitter:description" content="A cozy bear hug greeting card to send warmth, comfort, and encouragement to someone special.">
+<meta name="twitter:image" content="https://willowwishcards.com/BearHug.png">
+
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2682784236100565"
+     crossorigin="anonymous"></script>
+ 
+</head>
+
+<body>
+
+  <div class="card share-card">
+
+    <img
+      src="BearHug.png"
+      alt="Illustrated greeting card showing a teddy bear hugging a bunny beneath a starry night sky, with the message 'Bear Hug' and a warm wish for comfort."
+      class="card-image vertical-card-img"
+    />
+    <br>
+    <h2>&#128059;BEAR HUG&#128059;</h2>
+
+    <p class="message">
+      When life gets tough, imagine this bear hug waiting for you.&#129303;
+    </p>
+
+    <button class="share-btn" onclick="shareCard()">
+      Share This Card &#10024;
+    </button>
+
+  </div>
+
+  <script>
+    function shareCard() {
+
+      if (navigator.share) {
+
+        navigator.share({
+          title: "Bear Hug",
+          text: "Check out this greeting card!",
+          url: window.location.href
+        })
+
+        .then(() => console.log("Shared successfully"))
+        .catch((error) => console.log("Error sharing:", error));
+
+      } else {
+
+        alert("Sharing is not supported on this browser.");
+
+      }
+    }
+  </script>
+
+</body>
+</html>
