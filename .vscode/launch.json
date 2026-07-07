@@ -5,7 +5,7 @@
             "name": "Launch Edge",
             "type": "msedge",
             "request": "launch",
-            "file": "C:/Users/Mayom/Documents/WillowWish Cards/index.html"
+            "file": "${file}"
         }
     ]
 }
