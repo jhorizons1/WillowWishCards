@@ -32,7 +32,7 @@ body::before {
 	content: "";
 	position: fixed;
 	inset: 0;
-	background-image: url("WillowTreeBackground.png") !important;
+	background-image: url("WWCBackgroundElements.png") !important;
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
@@ -75,7 +75,7 @@ body::before {
 .card {
 	position: relative;
 	
-	background-image: url("WillowTreeCardBackground.png");
+	background-image: url("WWCBackgroundElements.png");
 	background-size: contain;
 	background-position: center;
 	background-repeat: repeat;
