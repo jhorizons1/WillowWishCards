@@ -395,8 +395,9 @@ Bring a little storybook magic into your home with this charming Woodland Duck &
   
 
     <section id="greeting-cards">
+      
       <h2>Greeting Cards</h2>
-      <div class="card-container">
+      
      <div class="card">
 <a href="https://payhip.com/b/0WZvT">
   <img
@@ -424,14 +425,14 @@ Bring a little storybook magic into your home with this charming Woodland Duck &
 <a href="InstructionsforFoxandLanternDownload.html">Download Instructions</a>
       
      </div>
-     </div>
+     
     </section>
 
    
 
     <section id="bookmarks">
       <h2>Bookmarks</h2>
-      <div class="card-container">
+      
       <div class="card">
    
         <a href="https://payhip.com/b/tx0rd">
@@ -457,7 +458,7 @@ Bring a little storybook magic into your home with this charming Woodland Duck &
 <p>Add a little extra joy to every chapter with this set of 3 printable bookmarks! Featuring charming, nature-inspired artwork and uplifting messages, these bookmarks are perfect for readers of all ages. Simply download, print on your favorite cardstock or paper, cut them out, and enjoy. A thoughtful gift for book lovers, teachers, students, or anyone who enjoys getting lost in a good book. </p>
 <a href="InstructionsForBookmarksDownload.html">Download Instructions</a>
 </div>
-</div>
+
     </section>
 
      <section id="coloring-pages">
@@ -644,11 +645,97 @@ Bring a little storybook magic into your home with this charming Woodland Duck &
     
 
   </main>
+
+  
+     <section class="storefronts-section">
+  <h2>Shop WillowWish Studio</h2>
+
+  <p class="storefronts-intro">
+    Find WillowWish Studio books, printable art, coloring pages,
+    greeting cards, bookmarks, and digital downloads across these stores.
+  </p>
+
+  <div class="storefront-grid">
+
+    <article class="storefront-card">
+  <h3>Etsy Shop</h3>
+  <p>Visit our main shop on Etsy to explore printable greeting cards, children's books, coloring pages, bookmarks, wall art, stickers, and more whimsical digital creations from WillowWish Studio.</p>
+  <a href="https://www.etsy.com/shop/WillowWishStudioUS" target="_blank" rel="noopener">
+    Visit Etsy
+  </a>
+</article>
+
+
+    <article class="storefront-card">
+      <h3>Payhip</h3>
+      <p>Visit our 2nd main shop for printable products, books, cards, and bundles.</p>
+      <a href=" https://payhip.com/WillowWishStudio" target="_blank" rel="noopener">
+        Visit Payhip
+      </a>
+    </article>
+
+    <article class="storefront-card">
+      <h3>Ko-fi Shop</h3>
+      <p>Browse digital downloads and support WillowWish Studio.</p>
+      <a href="https://ko-fi.com/willowwishstudio" target="_blank" rel="noopener">
+        Visit Ko-fi
+      </a>
+    </article>
+
+    <article class="storefront-card">
+      <h3>Buy Me a Coffee</h3>
+      <p>Shop products and bundles or become a monthly supporter.</p>
+      <a href="https://buymeacoffee.com/willowwishstudio" target="_blank" rel="noopener">
+        Visit Shop
+      </a>
+    </article>
+
+    <article class="storefront-card">
+      <h3>Gumroad</h3>
+      <p>Discover printable art, coloring pages, books, and cards.</p>
+      <a href="https://limegreenstep.gumroad.com/" target="_blank" rel="noopener">
+        Visit Gumroad
+      </a>
+    </article>
+
+    <article class="storefront-card">
+      <h3>itch.io</h3>
+      <p>Find creative downloads, children’s books, and the ForestWalk app.</p>
+      <a href="https://limegreenshoes.itch.io" target="_blank" rel="noopener">
+        Visit itch.io
+      </a>
+    </article>
+
+
+  </div>
+</section> 
   
 
   <footer>
     <p>&copy; 2026 WillowWish Studio. All rights reserved.</p>
   </footer>
+<script>
+  async function shareCard(title, text, url) {
+    const shareData = {
+      title: title,
+      text: text,
+      url: url
+    };
+
+    try {
+      if (navigator.share) {
+        await navigator.share(shareData);
+      } else {
+        await navigator.clipboard.writeText(url);
+        alert("Product link copied to your clipboard!");
+      }
+    } catch (error) {
+      if (error.name !== "AbortError") {
+        console.error("Sharing failed:", error);
+      }
+    }
+  }
+</script>
 
 </body>
 </html>
