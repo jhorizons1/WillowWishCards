@@ -409,7 +409,26 @@ a.squirrel-link:visited {
 	max-height: 550px;
 	}
   
+.new-arrivals-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    max-width: 1000px;
+    margin: 0 auto;
+}
 
+.new-arrivals-grid img {
+    width: 100%;
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+    border-radius: 18px;
+    display: block;
+    transition: transform .25s ease;
+}
+
+.new-arrivals-grid img:hover {
+    transform: scale(1.03);
+}
 
 
 
