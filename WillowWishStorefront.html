@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>WillowWish Studio Shop</title>
+  <link rel="stylesheet" href="styles.css">
+
+  <style>
+    /* Storefront grid upgrade */
+    .shop-section {
+      margin: 2.75rem auto;
+      max-width: 1200px;
+      padding: 0 1rem;
+    }
+
+    .shop-section h2 {
+      text-align: center;
+      margin-bottom: 1.25rem;
+    }
+
+    .product-grid {
+      display: grid;
+      grid-template-columns: repeat(4, minmax(0, 1fr));
+      gap: 18px;
+    }
+
+    .product-tile {
+      display: block;
+      overflow: hidden;
+      border-radius: 12px;
+      background: #fff;
+      aspect-ratio: 1 / 1;
+      box-shadow: 0 2px 10px rgba(0, 0, 0, 0.08);
+      transition: transform 0.2s ease, box-shadow 0.2s ease;
+    }
+
+    .product-tile:hover,
+    .product-tile:focus-visible {
+      transform: translateY(-3px);
+      box-shadow: 0 7px 18px rgba(0, 0, 0, 0.14);
+    }
+
+    .product-tile img {
+      width: 100%;
+      height: 100%;
+      display: block;
+      object-fit: cover;
+    }
+
+    nav ul {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 0.65rem 1rem;
+      padding: 0;
+      list-style: none;
+    }
+
+    @media (max-width: 900px) {
+      .product-grid {
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+      }
+    }
+
+    @media (max-width: 650px) {
+      .product-grid {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 12px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <h1>WillowWish Studio</h1>
+    <p>Little Wishes, Lasting Smiles.</p>
+  </header>
+
+  <nav aria-label="Shop categories">
+    <ul>
+      <li><a href="#featured-products">Featured Products</a></li>
+      <li><a href="#new-arrivals">New Arrivals</a></li>
+      <li><a href="#wall-art">Wall Art</a></li>
+      <li><a href="#clocks">Clocks</a></li>
+      <li><a href="#jewelry-boxes">Jewelry Boxes</a></li>
+      <li><a href="#drinkware">Drinkware</a></li>
+      <li><a href="#greeting-cards">Greeting Cards</a></li>
+      <li><a href="#childrens-books">Children&#x27;s Books</a></li>
+      <li><a href="#quote-books">Quote Books</a></li>
+      <li><a href="#bookmarks">Bookmarks</a></li>
+      <li><a href="#stickers">Stickers</a></li>
+      <li><a href="#coloring-pages">Coloring Pages</a></li>
+      <li><a href="#bundles">Bundles</a></li>
+    </ul>
+  </nav>
+
+<main>
+  <section id="featured-products" class="shop-section">
+    <h2>Featured Products</h2>
+    <div class="product-grid">
+      <a class="product-tile" href="https://www.etsy.com/listing/4550433147/moonlit-arctic-panel-art-matte-canvas?sr_prefetch=1&amp;pf_from=shop_home&amp;ref=shop_home_active_1&amp;logging_key=c6bb42a337677268f4830fff06da96b3707ef2fd%3A4550433147" target="_blank" rel="noopener noreferrer">
+        <img src="PolarBearMoonVerticalCanvas.jpg" alt="Framed vertical matte canvas featuring a collection of four moonlit polar bear artworks arranged in a 2×2 grid. Each panel depicts a majestic polar bear beneath a glowing full moon in peaceful Arctic landscapes with snowy mountains, reflective water, and deep blue night skies, displayed on a bright blue background within a slim black frame." loading="lazy">
+      </a>
+      <a class="product-tile" href="https://www.etsy.com/listing/4551183821/frog-prince-wall-clock-regal-amphibian?sr_prefetch=1&amp;pf_from=shop_home&amp;ref=shop_home_active_9&amp;logging_key=90f735cfba71838504f9a3fe8c94cff7078d8a5e%3A4551183821" target="_blank" rel="noopener noreferrer">
+        <img src="FrogKingClockListingImage.jpg" alt="Round wooden wall clock featuring a regal Frog King seated on an ornate throne in an enchanted forest. Wearing a jeweled crown and elegant royal robes while holding a decorative scepter, the frog is surrounded by lush greenery and soft glowing lights, creating a whimsical fantasy centerpiece for any room." loading="lazy">
+      </a>
+      <a class="product-tile" href="https://www.etsy.com/listing/4550985075/frog-king-illustration-jewelry-box-royal?sr_prefetch=1&amp;pf_from=shop_home&amp;ref=shop_home_active_10&amp;logging_key=5a5509a6e418757e7aa18617f0c2fb4ad72c2043%3A4550985075" target="_blank" rel="noopener noreferrer">
+        <img src="FrogKingJewelryBoxListingImage1.jpg" alt="Wooden jewelry box with a rich wood finish featuring enchanting Frog King artwork on the lid. One box is shown closed to display the detailed fantasy design, while a second box is open to reveal a soft-lined interior for storing jewelry, keepsakes, and small treasures." loading="lazy">
+      </a>
+      <a class="product-tile" href="https://www.etsy.com/listing/4550363660/moonlit-beach-painting-canvas-matte?sr_prefetch=1&amp;pf_from=shop_home&amp;ref=shop_home_active_4&amp;logging_key=05ec4cc8285fb93aab5ee91f8cd891c301fb59bd%3A4550363660" target="_blank" rel="noopener noreferrer">
+        <img src="BeachandMoonCanvasListingImage.jpg" alt="Framed matte canvas featuring a tranquil moonlit beach at night, with gentle ocean waves, glowing moonlight reflecting across the water, sandy dunes lined with sea grass, and a star-filled sky. The artwork is displayed on a soft cream-colored canvas, creating a peaceful coastal décor piece for beach-inspired interiors." loading="lazy">
+      </a>
+      <a class="product-tile" href="https://www.etsy.com/listing/4549334438/duck-and-mouse-picnic-canvas-framed-wall?sr_prefetch=1&amp;pf_from=shop_home&amp;ref=shop_home_active_2&amp;logging_key=f9c3229f034e3bedafae9c1debdbec2598c29918%3A4549334438" target="_blank" rel="noopener noreferrer">
+        <img src="DuckandMouseWallArtListingImage.jpg" alt="Mockup of a framed canvas wall art piece featuring a whimsical illustration of a duck and mouse enjoying a picnic in a peaceful garden setting, displayed on a light neutral background." loading="lazy">
+      </a>
+      <a class="product-tile" href="https://www.etsy.com/listing/4549378666/stormy-sea-wave-tumbler-20oz-dark-cloud?sr_prefetch=1&amp;pf_from=shop_home&amp;ref=shop_home_active_1&amp;logging_key=7c2b8d5625a8d5f3e1a038d3bda0fc09ca1e4a71%3A4549378666" target="_blank" rel="noopener noreferrer">
+        <img src="WhaleStormTumblerListingImage.jpg" alt="Mockup of a 20oz tumbler featuring a stormy sea wave design with dark clouds and a whale silhouette, displayed on a light neutral background." loading="lazy">
+      </a>
+      <a class="product-tile" href="https://www.etsy.com/listing/4549119675/woodland-duck-and-mouse-picnic-ceramic?sr_prefetch=1&amp;pf_from=shop_home&amp;ref=shop_home_active_8&amp;logging_key=0890a9e0c336ea6e420acdcd192f86c01c775a95%3A4549119675" target="_blank" rel="noopener noreferrer">
+        <img src="DuckandMouseMugListingImage.jpg" alt="Mockup of a white ceramic mug featuring an adorable duck and mouse sitting together on a picnic blanket surrounded by wildflowers and lush greenery. The whimsical woodland artwork wraps around the mug, creating a cozy, nature-inspired design displayed against a clean light background." loading="lazy">
+      </a>
+      <a class="product-tile" href="https://www.etsy.com/listing/4550652291/thinking-of-you-greeting-card-vintage?sr_prefetch=1&amp;pf_from=shop_home&amp;ref=shop_home_active_11&amp;logging_key=abbb66e059d1fb70bd846ce7f3c26a1c3d09adf6%3A4550652291" target="_blank" rel="noopener noreferrer">
+        <img src="DuckandMousePhysicalCardListingImage.jpg" alt="Mockup of a premium folded greeting card featuring a white duck carrying a picnic basket alongside a small mouse by a peaceful pond with blooming wildflowers and dragonflies. The front reads &#x27;Thinking of You&#x27; with the heartfelt message, &#x27;Because Every Journey Is Brighter With a Friend.&#x27;" loading="lazy">
+      </a>
+    </div>
+  </section>
+  <section id="new-arrivals" class="shop-section">
+    <h2>New Arrivals</h2>
+    <div class="product-grid">
+      <a class="product-tile" href="https://www.etsy.com/listing/4550433147/moonlit-arctic-panel-art-matte-canvas?sr_prefetch=1&amp;pf_from=shop_home&amp;ref=shop_home_active_1&amp;logging_key=962009bb4da735d3f81fab7c7cc6a018b9b2800e%3A4550433147" target="_blank" rel="noopener noreferrer">
+        <img src="PolarBearMoonBlueCanvas.jpg" alt="Vertical framed canvas featuring four moonlit polar bear scenes" loading="lazy">
+      </a>
+      <a class="product-tile" href="https://www.etsy.com/listing/4549311665/moonlit-polar-bear-canvas-stretched?sr_prefetch=1&amp;pf_from=shop_home&amp;ref=shop_home_active_2&amp;logging_key=6fb9889f1815f957a3bd49c7d38ea25308abeae1%3A4549311665" target="_blank" rel="noopener noreferrer">
+        <img src="PolarBearMoonListingImage.jpg" alt="Moonlit polar bear artwork displayed on a framed canvas" loading="lazy">
+      </a>
+      <a class="product-tile" href="https://www.etsy.com/shop/WillowWishStudioUS" target="_blank" rel="noopener noreferrer">
+        <img src="4CanvasesPolarBearMoon.png" alt="Collection of four moonlit polar bear canvas designs" loading="lazy">
+      </a>
+      <a class="product-tile" href="https://www.etsy.com/listing/4549334438/duck-and-mouse-picnic-canvas-framed-wall?sr_prefetch=1&amp;pf_from=shop_home&amp;ref=shop_home_active_7&amp;logging_key=8973b0e042a66b229f4a0effb031411c9bf66cd3%3A4549334438" target="_blank" rel="noopener noreferrer">
+        <img src="DuckandMouseWallArtListingImage.jpg" alt="Whimsical duck and mouse wall art displayed in a room" loading="lazy">
+      </a>
+      <a class="product-tile" href="https://www.etsy.com/listing/4550363660/moonlit-beach-painting-canvas-matte?sr_prefetch=1&amp;pf_from=shop_home&amp;ref=shop_home_active_8&amp;logging_key=93d7f571b219aecd0f4b8ec89366d8b17ddd67e7%3A4550363660" target="_blank" rel="noopener noreferrer">
+        <img src="BeachandMoonCanvasListingImage.jpg" alt="Framed canvas featuring a peaceful moonlit beach and ocean waves" loading="lazy">
+      </a>
+      <a class="product-tile" href="https://www.etsy.com/listing/4551183821/frog-prince-wall-clock-regal-amphibian?sr_prefetch=1&amp;pf_from=shop_home&amp;ref=shop_home_active_9&amp;logging_key=a869b12d14c47bb8fdf147952ba4dc86e7b32254%3A4551183821" target="_blank" rel="noopener noreferrer">
+        <img src="FrogKingClockListingImage.jpg" alt="Bring a touch of enchanted fantasy to your home with this Frog King wall clock featuring a regal amphibian seated on an ornate throne surrounded by magical woodland scenery. Both functional and decorative, this unique timepiece adds storybook charm to living rooms, bedrooms, offices, game rooms, and fantasy-inspired spaces. A wonderful gift for fairy tale lovers, fantasy fans, and anyone who appreciates whimsical home décor." loading="lazy">
+      </a>
+      <a class="product-tile" href="https://www.etsy.com/listing/4550985075/frog-king-illustration-jewelry-box-royal?sr_prefetch=1&amp;pf_from=shop_home&amp;ref=shop_home_active_10&amp;logging_key=5a5509a6e418757e7aa18617f0c2fb4ad72c2043%3A4550985075" target="_blank" rel="noopener noreferrer">
+        <img src="FrogKingJewelryBoxListingImage1.jpg" alt="Wooden jewelry box with a rich wood finish featuring enchanting Frog King artwork on the lid. One box is shown closed to display the detailed fantasy design, while a second box is open to reveal a soft-lined interior for storing jewelry, keepsakes, and small treasures." loading="lazy">
+      </a>
+      <a class="product-tile" href="https://www.etsy.com/listing/4549119675/woodland-duck-mouse-picnic-ceramic-mug?sr_prefetch=1&amp;pf_from=shop_home&amp;ref=shop_home_active_11&amp;logging_key=ae0fa60b67cbdddf522d68a252f7f742028703dd%3A4549119675" target="_blank" rel="noopener noreferrer">
+        <img src="DuckandMouseMugListingImage.jpg" alt="Mug featuring a cheerful duck and mouse illustration" loading="lazy">
+      </a>
+      <a class="product-tile" href="https://www.etsy.com/listing/4549378666/stormy-sea-wave-tumbler-20oz-dark-cloud?sr_prefetch=1&amp;pf_from=shop_home&amp;ref=shop_home_active_12&amp;logging_key=6884704e3ee346a12bd5c066d974000941ae6f7c%3A4549378666" target="_blank" rel="noopener noreferrer">
+        <img src="WhaleStormTumblerListingImage.jpg" alt="Tumbler featuring a dramatic whale and stormy ocean design" loading="lazy">
+      </a>
+      <a class="product-tile" href="https://www.etsy.com/listing/4550652291/thinking-of-you-greeting-card-vintage?sr_prefetch=1&amp;pf_from=shop_home&amp;ref=shop_home_active_13&amp;logging_key=cf26d79d67fb54049d0f01453f0f14c1aa92a5f2%3A4550652291" target="_blank" rel="noopener noreferrer">
+        <img src="DuckandMousePhysicalCardListingImage.jpg" alt="Mockup of a premium folded greeting card featuring a white duck carrying a picnic basket alongside a small mouse by a peaceful pond with blooming wildflowers and dragonflies. The front reads &#x27;Thinking of You&#x27; with the heartfelt message, &#x27;Because Every Journey Is Brighter With a Friend.&#x27;" loading="lazy">
+      </a>
+      <a class="product-tile" href="https://www.etsy.com/listing/4550002181/running-horse-greeting-cards-scenic?sr_prefetch=1&amp;pf_from=shop_home&amp;ref=shop_home_active_14&amp;logging_key=4c46bcd04a3117cf768704cb7d8af0470a4878b3%3A4550002181" target="_blank" rel="noopener noreferrer">
+        <img src="HorseandPinkSkyGreetingCardListingImage.jpg" alt="Greeting card featuring a horse beneath a soft pink sky" loading="lazy">
+      </a>
+      <a class="product-tile" href="https://www.etsy.com/listing/4549967994/smiling-sun-clouds-bookmark-whimsical?sr_prefetch=1&amp;pf_from=shop_home&amp;ref=shop_home_active_15&amp;logging_key=36c7f823d045046594c10e3ea4c25f5121848e63%3A4549967994" target="_blank" rel="noopener noreferrer">
+        <img src="SunshineandBirdBookmarkListingImage.jpg" alt="Bookmark featuring a bright sun and bluebird illustration" loading="lazy">
+      </a>
+      <a class="product-tile" href="https://www.etsy.com/listing/4550034179/smiling-sun-and-bluebird-kiss-cut-vinyl?sr_prefetch=1&amp;pf_from=shop_home&amp;ref=shop_home_active_1&amp;logging_key=71bb5f3cd339b2f832ace2aa5afd4375996e3eb3%3A4550034179" target="_blank" rel="noopener noreferrer">
+        <img src="SunshineandBird.jpg" alt="Preview image of a printable sticker featuring a smiling golden sun with rosy cheeks beneath a blue bird flying through fluffy clouds in a whimsical storybook-style sky. Perfect for planners, journals, scrapbooks, laptops, water bottles, and other creative projects." loading="lazy">
+      </a>
+      <a class="product-tile" href="https://ko-fi.com/s/62e2c89207" target="_blank" rel="noopener noreferrer">
+        <img src="DuckandMousePrintableBundle.png" alt="Printable bundle featuring coordinating duck and mouse designs" loading="lazy">
+      </a>
+    </div>
+  </section>
+  <section id="wall-art" class="shop-section">
+    <h2>Wall Art</h2>
+    <div class="product-grid">
+      <a class="product-tile" href="https://www.etsy.com/listing/4550433147/moonlit-arctic-panel-art-matte-canvas?sr_prefetch=1&amp;pf_from=shop_home&amp;ref=shop_home_active_1&amp;logging_key=c6bb42a337677268f4830fff06da96b3707ef2fd%3A4550433147" target="_blank" rel="noopener noreferrer">
+        <img src="PolarBearMoonBlueCanvas.jpg" alt="Framed canvas wall art featuring four moonlit polar bear scenes arranged in a vertical grid on a calming blue background. The artwork depicts peaceful Arctic landscapes with glowing full moons, snowy mountains, reflective water, and a solitary polar bear, creating a serene nature-inspired display." loading="lazy">
+      </a>
+      <a class="product-tile" href="https://www.etsy.com/listing/4549311665/moonlit-polar-bear-canvas-stretched?sr_prefetch=1&amp;pf_from=shop_home&amp;ref=shop_home_active_3&amp;logging_key=3bc65338d1cd21a0819fb6238f0922e2099e98ad%3A4549311665" target="_blank" rel="noopener noreferrer">
+        <img src="PolarBearMoonListingImage.jpg" alt="Mockup of a framed canvas wall art set featuring four moonlit polar bear illustrations arranged in a clean 2×2 grid. The artwork showcases peaceful Arctic landscapes with glowing full moons, snowy mountains, reflective water, and soft blue and golden tones, displayed on a modern gallery-wrapped canvas against a light neutral background." loading="lazy">
+      </a>
+      <a class="product-tile" href="https://www.etsy.com/shop/WillowWishStudioUS" target="_blank" rel="noopener noreferrer">
+        <img src="4CanvasesPolarBearMoon.png" alt="Collage of four framed matte canvas wall art designs featuring a white polar bear beneath a glowing full moon in the Arctic. Each artwork showcases a different moonlit landscape with snowy mountains, reflective water, and blue-toned wilderness, displayed on deep navy blue framed canvases in a clean 2×2 arrangement." loading="lazy">
+      </a>
+      <a class="product-tile" href="https://www.etsy.com/listing/4549334438/duck-and-mouse-picnic-canvas-framed-wall?sr_prefetch=1&amp;pf_from=shop_home&amp;ref=shop_home_active_2&amp;logging_key=f9c3229f034e3bedafae9c1debdbec2598c29918%3A4549334438" target="_blank" rel="noopener noreferrer">
+        <img src="DuckandMouseWallArtListingImage.jpg" alt="Mockup of a framed canvas wall art piece featuring a whimsical illustration of a duck and mouse enjoying a picnic in a peaceful garden setting, displayed on a light neutral background." loading="lazy">
+      </a>
+      <a class="product-tile" href="https://www.etsy.com/listing/4550363660/moonlit-beach-painting-canvas-matte?sr_prefetch=1&amp;pf_from=shop_home&amp;ref=shop_home_active_4&amp;logging_key=05ec4cc8285fb93aab5ee91f8cd891c301fb59bd%3A4550363660" target="_blank" rel="noopener noreferrer">
+        <img src="BeachandMoonCanvasListingImage.jpg" alt="Framed matte canvas featuring a tranquil moonlit beach at night, with gentle ocean waves, glowing moonlight reflecting across the water, sandy dunes lined with sea grass, and a star-filled sky. The artwork is displayed on a soft cream-colored canvas, creating a peaceful coastal décor piece for beach-inspired interiors." loading="lazy">
+      </a>
+      <a class="product-tile" href="https://www.etsy.com/listing/4547705604/polar-bear-moon-art-set-of-4-arctic?sr_prefetch=1&amp;pf_from=shop_home&amp;ref=shop_home_active_1&amp;dd=1&amp;logging_key=0a5e4e4614915f26f1a64e03d5b7482b864dbe9f%3A4547705604" target="_blank" rel="noopener noreferrer">
+        <img src="MoonlitPolarDreamsListingImage.jpg" alt="A set of four printable wall art illustrations featuring a polar bear in a serene Arctic landscape under a moonlit sky. The artwork includes snowy mountains, icy waters, and a peaceful polar bear, creating a calming and nature-inspired atmosphere. Perfect for nurseries, children&#x27;s rooms, living spaces, or as a thoughtful gift for nature lovers." loading="lazy">
+      </a>
+      <a class="product-tile" href="https://www.etsy.com/listing/4547143307/woodland-duck-mouse-picnic-art-print?sr_prefetch=1&amp;pf_from=shop_home&amp;ref=shop_home_active_2&amp;dd=1&amp;logging_key=7d8124f65d3cd7b9c9edf21f1fbf5c14765fb97b%3A4547143307" target="_blank" rel="noopener noreferrer">
+        <img src="DuckandMouseWallArt12.jpg" alt="A whimsical woodland illustration of a white duck and a small brown mouse sitting together on a red-and-white picnic blanket beside a peaceful pond. Surrounded by lush greenery, wildflowers, lily pads, and a picnic basket filled with berries, the charming scene creates a warm, storybook atmosphere perfect for nursery décor, children&#x27;s rooms, and nature-inspired wall art." loading="lazy">
+      </a>
+      <a class="product-tile" href="https://payhip.com/b/wiR56" target="_blank" rel="noopener noreferrer">
+        <img src="Sunflower_WillowTree_WoodlandAnimals_WallArt_ListingImage.png" alt="Promotional image for an inspirational printable wall art set featuring three printable designs: a sunflower with an uplifting quote, a peaceful willow tree illustration, and a woodland animal print with a fox, bear, and squirrel. The set is designed for instant digital download and home printing." loading="lazy">
+      </a>
+    </div>
+  </section>
+  <section id="clocks" class="shop-section">
+    <h2>Clocks</h2>
+    <div class="product-grid">
+      <a class="product-tile" href="https://www.etsy.com/listing/4551183821/frog-prince-wall-clock-regal-amphibian?sr_prefetch=1&amp;pf_from=shop_home&amp;ref=shop_home_active_9&amp;logging_key=90f735cfba71838504f9a3fe8c94cff7078d8a5e%3A4551183821" target="_blank" rel="noopener noreferrer">
+        <img src="FrogKingClockListingImage.jpg" alt="Round wooden wall clock featuring a regal Frog King seated on an ornate throne in an enchanted forest. Wearing a jeweled crown and elegant royal robes while holding a decorative scepter, the frog is surrounded by lush greenery and soft glowing lights, creating a whimsical fantasy centerpiece for any room." loading="lazy">
+      </a>
+    </div>
+  </section>
+  <section id="jewelry-boxes" class="shop-section">
+    <h2>Jewelry Boxes</h2>
+    <div class="product-grid">
+      <a class="product-tile" href="https://www.etsy.com/listing/4550985075/frog-king-illustration-jewelry-box-royal?sr_prefetch=1&amp;pf_from=shop_home&amp;ref=shop_home_active_10&amp;logging_key=e31913819b745b73db106610aefb2af8a0d34162%3A4550985075" target="_blank" rel="noopener noreferrer">
+        <img src="FrogKingJewelryBoxListingImage1.jpg" alt="Wooden jewelry box with a rich wood finish featuring enchanting Frog King artwork on the lid. One box is shown closed to display the detailed fantasy design, while a second box is open to reveal a soft-lined interior for storing jewelry, keepsakes, and small treasures." loading="lazy">
+      </a>
+    </div>
+  </section>
+  <section id="drinkware" class="shop-section">
+    <h2>Drinkware</h2>
+    <div class="product-grid">
+      <a class="product-tile" href="https://www.etsy.com/listing/4549378666/stormy-sea-wave-tumbler-20oz-dark-cloud?sr_prefetch=1&amp;pf_from=shop_home&amp;ref=shop_home_active_1&amp;logging_key=7c2b8d5625a8d5f3e1a038d3bda0fc09ca1e4a71%3A4549378666" target="_blank" rel="noopener noreferrer">
+        <img src="WhaleStormTumblerListingImage.jpg" alt="Mockup of a 20oz tumbler featuring a stormy sea wave design with dark clouds and a whale silhouette, displayed on a light neutral background." loading="lazy">
+      </a>
+      <a class="product-tile" href="https://www.etsy.com/listing/4549119675/woodland-duck-and-mouse-picnic-ceramic?sr_prefetch=1&amp;pf_from=shop_home&amp;ref=shop_home_active_8&amp;logging_key=0890a9e0c336ea6e420acdcd192f86c01c775a95%3A4549119675" target="_blank" rel="noopener noreferrer">
+        <img src="DuckandMouseMugListingImage.jpg" alt="Mockup of a white ceramic mug featuring an adorable duck and mouse sitting together on a picnic blanket surrounded by wildflowers and lush greenery. The whimsical woodland artwork wraps around the mug, creating a cozy, nature-inspired design displayed against a clean light background." loading="lazy">
+      </a>
+    </div>
+  </section>
+  <section id="greeting-cards" class="shop-section">
+    <h2>Greeting Cards</h2>
+    <div class="product-grid">
+      <a class="product-tile" href="https://www.etsy.com/listing/4550652291/thinking-of-you-greeting-card-vintage?sr_prefetch=1&amp;pf_from=shop_home&amp;ref=shop_home_active_11&amp;logging_key=abbb66e059d1fb70bd846ce7f3c26a1c3d09adf6%3A4550652291" target="_blank" rel="noopener noreferrer">
+        <img src="DuckandMousePhysicalCardListingImage.jpg" alt="Mockup of a premium folded greeting card featuring a white duck carrying a picnic basket alongside a small mouse by a peaceful pond with blooming wildflowers and dragonflies. The front reads &#x27;Thinking of You&#x27; with the heartfelt message, &#x27;Because Every Journey Is Brighter With a Friend.&#x27;" loading="lazy">
+      </a>
+      <a class="product-tile" href="https://www.etsy.com/listing/4546303527/thinking-of-you-duck-mouse-greeting-card?sr_prefetch=1&amp;pf_from=shop_home&amp;ref=shop_home_active_1&amp;dd=1&amp;logging_key=baf7fbc555910a616cafc391def13807b2826e00%3A4546303527" target="_blank" rel="noopener noreferrer">
+        <img src="DuckandMouseFrontandBack12.png" alt="A whimsical watercolor-style illustration of a white duck and a small brown mouse relaxing together on a red-and-white picnic blanket beside a peaceful pond. They sit beneath a large willow tree surrounded by yellow and white wildflowers, with a picnic basket filled with fruit nearby and lily pads floating on the water. Bold black text on the left reads: &#x27;May your heart always find peaceful places, faithful friends, and quiet moments that remind you how beautiful life can be.&#x27;" loading="lazy">
+      </a>
+      <a class="product-tile" href="https://payhip.com/b/0WZvT" target="_blank" rel="noopener noreferrer">
+        <img src="FoxandLanternListingImage1.png" alt="A printable tri-fold greeting card featuring a cozy woodland fox carrying a glowing lantern through a peaceful forest. The listing image shows the front cover, inside panels, and back design, making it easy to preview the complete printable card. Perfect for birthdays, encouragement, thank-you notes, and thoughtful greetings." loading="lazy">
+      </a>
+      <a class="product-tile" href="https://www.etsy.com/listing/4550002181/running-horse-greeting-cards-set-of-7?sr_prefetch=1&amp;pf_from=shop_home&amp;ref=shop_home_active_1&amp;logging_key=3ad0682564600c5fba91bd1d969bd3e7d4404980%3A4550002181" target="_blank" rel="noopener noreferrer">
+        <img src="HorseandPinkSkyGreetingCardListingImage.jpg" alt="A printable tri-fold greeting card featuring a cozy woodland fox carrying a glowing lantern through a peaceful forest. The listing image shows the front cover, inside panels, and back design, making it easy to preview the complete printable card. Perfect for birthdays, encouragement, thank-you notes, and thoughtful greetings." loading="lazy">
+      </a>
+    </div>
+  </section>
+  <section id="childrens-books" class="shop-section">
+    <h2>Children&#x27;s Books</h2>
+    <div class="product-grid">
+      <a class="product-tile" href="https://www.amazon.com/Bella-Bumblebees-Rainbow-Garden-Friendship-ebook/dp/B0H9GJMGDN/ref=sr_1_1?crid=17OPH5E5J0V70&amp;dib=eyJ2IjoiMSJ9.mNBEmvtPc4wkx89s4W729PpJtnvt9IQ2j5D_lXbvYhM3B4XIAh0XhZaTlwPTKvnb.2C7pMvlsi3fonYnqFYQgCUF67RtC6RjNWqXH2gHG0eA&amp;dib_tag=se&amp;keywords=Bella+The+Bumblebee%27s+Rainbow+Garden&amp;qid=1785021312&amp;sprefix=bella+the+bumblebee%27s+rainbow+garden%2Caps%2C234&amp;sr=8-1" target="_blank" rel="noopener noreferrer">
+        <img src="BTBBFrontCover.png" alt="Bella the Bumblebee&#x27;s Rainbow Garden children&#x27;s book cover featuring a smiling cartoon bumblebee flying through a colorful flower garden at sunset. Bella is surrounded by a happy rabbit, a chipmunk, a robin, butterflies, a ladybug, and vibrant wildflowers. A rainbow stretches across the sky above a whimsical cottage with a purple flower-shaped roof. The title &#x27;Bella the Bumblebee&#x27;s Rainbow Garden&#x27; appears in large colorful letters, with the subtitle: &#x27;A story about friendship, kindness, and the magic of helping others grow.&#x27;" loading="lazy">
+      </a>
+      <a class="product-tile" href="https://payhip.com/b/pAQzK.html" target="_blank" rel="noopener noreferrer">
+        <img src="ChildrensBookFrontCover.png" alt="Cover of the children&#x27;s book &#x27;The Giraffe Who Became a Human (by accident!)&#x27; featuring a cheerful giraffe holding a chalkboard that reads, &#x27;A story about a wish, a little magic, and discovering who you really are.&#x27; The cover also includes a zebra, elephant, monkey, hedgehog, bunny, colorful bird, and an African savanna background. Written and illustrated by James Howard." loading="lazy">
+      </a>
+    </div>
+  </section>
+  <section id="quote-books" class="shop-section">
+    <h2>Quote Books</h2>
+    <div class="product-grid">
+      <a class="product-tile" href="https://www.amazon.com/100-Quotes-Brighten-Your-Day-ebook/dp/B0HB926PW6/ref=sr_1_1?crid=3XH7RG79DK9T&amp;dib=eyJ2IjoiMSJ9.T9gYyIotA2wGRsBzOKvtG-1goaxOpB7szlIYy78hmQyG-T7slw12--e818MpA3pz0WO6l_Unvml7wueAYYyxBqLJdUgGc-LoDYLZ2nFOUhLoVxa_DNIx9oIS0-eQ095IGzsrNhB1V38j2jc9EEN-63jM-elRyEYTpbAT55cXS2oClxdz5_EUs-jmd57VKhFmlDrBGcO8MHPJrZqoawTYfESo65ckWCajsUZyIdsR9bE.tNpANubpzoL8YsYa5s-jrI-IVHdaR9NAuZRQCbcN3UY&amp;dib_tag=se&amp;keywords=100+quotes+to+brighten+your+day&amp;qid=1785542048&amp;sprefix=100+quotes+to+brighten+your+day%2Caps%2C257&amp;sr=8-1" target="_blank" rel="noopener noreferrer">
+        <img src="QuoteBookFrontCover.png" alt="Cover of the inspirational book &#x27;100 Quotes to Brighten Your Day&#x27; featuring a cheerful yellow background with a sunburst design and bold black text. The cover includes a small illustration of a smiling sun and is designed to convey positivity, encouragement, and uplifting messages for readers seeking daily inspiration." loading="lazy">
+      </a>
+    </div>
+  </section>
+  <section id="bookmarks" class="shop-section">
+    <h2>Bookmarks</h2>
+    <div class="product-grid">
+      <a class="product-tile" href="https://payhip.com/b/tx0rd" target="_blank" rel="noopener noreferrer">
+        <img src="BearFoxandOwlBookmarksListingImage.png" alt="Printable bookmark set featuring three unique bookmark designs: a bear reaching toward a beehive, a fox reading a book with the words &#x27;Get lost in a good book,&#x27; and an owl beneath a starry night sky with the message &#x27;Dream big and be kind.&#x27; Digital download for home printing." loading="lazy">
+      </a>
+      <a class="product-tile" href="https://www.etsy.com/listing/4549967994/smiling-sun-in-clouds-bookmark-cute?ref=shop_home_active_1&amp;logging_key=36d304b2bee9d46537c79b83fcb03e14d58f9858%3A4549967994" target="_blank" rel="noopener noreferrer">
+        <img src="SunshineandBirdBookmarkListingImage.jpg" alt="Printable bookmark featuring a cheerful smiling sunshine peeking through fluffy clouds with a bluebird resting nearby, illustrated in a whimsical storybook style with warm golden tones and a dreamy sky." loading="lazy">
+      </a>
+    </div>
+  </section>
+  <section id="stickers" class="shop-section">
+    <h2>Stickers</h2>
+    <div class="product-grid">
+      <a class="product-tile" href="https://www.etsy.com/listing/4550034179/smiling-sun-and-bluebird-kiss-cut-vinyl?sr_prefetch=1&amp;pf_from=shop_home&amp;ref=shop_home_active_1&amp;logging_key=71bb5f3cd339b2f832ace2aa5afd4375996e3eb3%3A4550034179" target="_blank" rel="noopener noreferrer">
+        <img src="SunshineandBird.jpg" alt="Preview image of a printable sticker featuring a smiling golden sun with rosy cheeks beneath a blue bird flying through fluffy clouds in a whimsical storybook-style sky. Perfect for planners, journals, scrapbooks, laptops, water bottles, and other creative projects." loading="lazy">
+      </a>
+      <a class="product-tile" href="https://payhip.com/b/tx0rd" target="_blank" rel="noopener noreferrer">
+        <img src="StickersLightBlueListingImage.png" alt="Preview image for the Woodland Friends: Power of the Elements sticker pack featuring eight whimsical woodland animals with elemental powers—Fire, Air, Earth, Water, Stone, Forest, Nature, and Lightning. Includes transparent PNG stickers with instant download, 300 DPI quality, and designs perfect for planners, journals, scrapbooks, crafts, and more." loading="lazy">
+      </a>
+    </div>
+  </section>
+  <section id="coloring-pages" class="shop-section">
+    <h2>Coloring Pages</h2>
+    <div class="product-grid">
+      <a class="product-tile" href="https://payhip.com/b/Tzme3" target="_blank" rel="noopener noreferrer">
+        <img src="BearReachingForHoneyColoringPictureListingImage.png" alt="Printable coloring page featuring a cute bear reaching toward a beehive hanging from a tree branch while friendly bees buzz around. The page includes flowers, leaves, and a woodland scene, with labels indicating it is a US Letter (8.5 x 11 inch) instant digital download suitable for kids and adults." loading="lazy">
+      </a>
+      <a class="product-tile" href="https://ko-fi.com/s/8104526525" target="_blank" rel="noopener noreferrer">
+        <img src="SquirrelonBoatListingImage.png" alt="Squirrel Sailing Adventure Coloring Page preview featuring a smiling squirrel sailing a small boat on the ocean. Printable high-quality PDF with instant download, suitable for kids and all ages." loading="lazy">
+      </a>
+    </div>
+  </section>
+  <section id="bundles" class="shop-section">
+    <h2>Bundles</h2>
+    <div class="product-grid">
+      <a class="product-tile" href="https://ko-fi.com/s/3549f70379" target="_blank" rel="noopener noreferrer">
+        <img src="WillowWishCollectionBundle.png" alt="Promotional image for the WillowWish Collection Bundle, a digital download featuring a curated set of printable products including greeting cards, coloring pages, bookmarks, and wall art. The bundle is designed for instant download and home printing, offering a variety of creative and inspirational designs." loading="lazy">
+      </a>
+      <a class="product-tile" href="https://limegreenstep.gumroad.com/l/willowwishbundle" target="_blank" rel="noopener noreferrer">
+        <img src="Bundle1ListingImage.png" alt="WillowWish Storytime Bundle digital download featuring three printable activities: &#x27;The Giraffe Who Became a Human&#x27; children&#x27;s book, a set of three printable bookmarks, and a cute bear coloring page. The bundle includes reading, coloring, and bookmark activities for kids and families." loading="lazy">
+      </a>
+      <a class="product-tile" href="https://ko-fi.com/s/62e2c89207" target="_blank" rel="noopener noreferrer">
+        <img src="DuckandMousePrintableBundleListingImage.png" alt="Listing image showcasing the Duck &amp; Mouse Bundle, featuring a printable woodland greeting card and matching digital wall art with a cheerful duck and friendly mouse enjoying a picnic in a colorful nature setting. Perfect for gifts, home décor, and printable keepsakes." loading="lazy">
+      </a>
+      <a class="product-tile" href="https://buymeacoffee.com/willowwishstudio/e/556296" target="_blank" rel="noopener noreferrer">
+        <img src="WillowWishTreasureBundleListingImage.png" alt="WillowWish Treasure Bundle listing featuring five printable digital downloads: a children&#x27;s book, animal bookmarks, bear coloring page, printable greeting card, and printable wall art set in a cozy woodland theme." loading="lazy">
+      </a>
+    </div>
+  </section>
+</main>
+
+<section class="storefronts-section">
+<h2>Shop WillowWish Studio</h2>
+<p class="storefronts-intro">
+    Find WillowWish Studio books, printable art, coloring pages,
+    greeting cards, bookmarks, and digital downloads across these stores.
+  </p>
+<div class="storefront-grid">
+<article class="storefront-card">
+<h3>Etsy Shop</h3>
+<p>Visit our main shop on Etsy to explore printable greeting cards, children's books, coloring pages, bookmarks, wall art, stickers, and more whimsical digital creations from WillowWish Studio.</p>
+<a href="https://www.etsy.com/shop/WillowWishStudioUS" rel="noopener" target="_blank">
+    Visit Etsy
+  </a>
+</article>
+<article class="storefront-card">
+<h3>Payhip</h3>
+<p>Visit our 2nd main shop for printable products, books, cards, and bundles.</p>
+<a href="https://payhip.com/WillowWishStudio" rel="noopener" target="_blank">
+        Visit Payhip
+      </a>
+</article>
+<article class="storefront-card">
+<h3>Ko-fi Shop</h3>
+<p>Browse digital downloads and support WillowWish Studio.</p>
+<a href="https://ko-fi.com/willowwishstudio" rel="noopener" target="_blank">
+        Visit Ko-fi
+      </a>
+</article>
+<article class="storefront-card">
+<h3>Buy Me a Coffee</h3>
+<p>Shop products and bundles or become a monthly supporter.</p>
+<a href="https://buymeacoffee.com/willowwishstudio" rel="noopener" target="_blank">
+        Visit Shop
+      </a>
+</article>
+<article class="storefront-card">
+<h3>Gumroad</h3>
+<p>Discover printable art, coloring pages, books, and cards.</p>
+<a href="https://limegreenstep.gumroad.com/" rel="noopener" target="_blank">
+        Visit Gumroad
+      </a>
+</article>
+<article class="storefront-card">
+<h3>itch.io</h3>
+<p>Find creative downloads, children’s books, and the ForestWalk app.</p>
+<a href="https://limegreenshoes.itch.io" rel="noopener" target="_blank">
+        Visit itch.io
+      </a>
+</article>
+</div>
+</section>
+
+<footer>
+  <p>&copy; 2026 WillowWish Studio. All rights reserved.</p>
+</footer>
+</body>
+</html>
